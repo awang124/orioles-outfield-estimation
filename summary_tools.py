@@ -19,10 +19,10 @@ def analyze_and_summarize(distances, park):
 
         summary["distances_ft"].append(dist)
 
-        if dist > 500:
-            summary["green_hits"].append(angle)
-        else:
+        if dist < 300:
             summary["yellow_partial"].append(angle)
+        else:
+            summary["green_hits"].append(angle)
 
     dist_array = np.array([d for d in summary["distances_ft"] if d is not None])
 
