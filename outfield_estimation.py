@@ -37,6 +37,15 @@ def parse_arguments():
     parser.add_argument(
         "--vis-path", default="distances_vis.png", help="Visualization output path"
     )
+    parser.add_argument(
+        "--graph-path", default="distances_graph.png", help="Graph output path"
+    )
+    parser.add_argument(
+        "--field-type", choices=("MLB", "MiLB", "Olympic"), default="MLB", help="Field type"
+    )
+    parser.add_argument(
+        "--smooth-level", type=int, default=5, help="Max. dist. diff. (consecutive angles)"
+    )
     return parser.parse_args()
 
 def download_image(args):
@@ -63,7 +72,7 @@ def select_bases(image):
     
 def compute_grassmask(image):
     hsv = cv.cvtColor(image, cv.COLOR_BGR2HSV)
-    mask = cv.inRange(hsv, (30, 40, 40), (90, 255, 255))
+    mask = cv.inRange(hsv, (30, 40, 40), (90, 256, 256))
     kernel = cv.getStructuringElement(cv.MORPH_ELLIPSE, (7, 7))
     mask = cv.morphologyEx(mask, cv.MORPH_CLOSE, kernel)
     mask = cv.morphologyEx(mask, cv.MORPH_OPEN, kernel)
@@ -71,8 +80,8 @@ def compute_grassmask(image):
 
 def compute_dirtmask(image):
     hsv = cv.cvtColor(image, cv.COLOR_BGR2HSV)
-    mask1 = cv.inRange(hsv, (0, 30, 30), (30, 255, 255))
-    mask2 = cv.inRange(hsv, (150, 30, 30), (180, 255, 255))
+    mask1 = cv.inRange(hsv, (0, 30, 30), (30, 256, 256))
+    mask2 = cv.inRange(hsv, (150, 30, 30), (180, 256, 256))
     mask = cv.bitwise_or(mask1, mask2)
     kernel = cv.getStructuringElement(cv.MORPH_ELLIPSE, (5, 5))
     mask = cv.morphologyEx(mask, cv.MORPH_CLOSE, kernel)
@@ -142,29 +151,13 @@ def find_wall_after_offset(
             return (xi, yi), offset_feet + (i * feet_per_pixel)
     return None, None
 
-# def distance_to_outer_dirt(home_px, angle_deg, dirt_mask, feet_per_pixel):
-#     angle_rad = math.radians(angle_deg)
-#     dx, dy = math.cos(angle_rad), -math.sin(angle_rad)
-#     MIN_DISTANCE_FEET, MAX_DISTANCE_PX = 200, 3000
-#     min_distance_px = int(MIN_DISTANCE_FEET / feet_per_pixel)
-# 
-#     x, y = home_px
-#     prev_transition = (None, None)
-#     prev_val = dirt_mask[int(y), int(x)]
-#     for i in range(1, MAX_DISTANCE_PX):
-#         xi = int(x + i * dx)
-#         yi = int(y + i * dy)
-#         if not 0 <= xi < dirt_mask.shape[1]:
-#             break
-#         if not 0 <= yi < dirt_mask.shape[0]:
-#             break
-#         val = dirt_mask[yi, xi]
-#         if prev_val > 127 and val <= 127 and i > min_distance_px:
-#             prev_transition = (i, (xi, yi))
-#         prev_val = val
-#     return prev_transition
-
 def compute_distances(args, image, home_px, first_px, third_px):
+    track_len = {
+        "MLB": 15,
+        "MiLB": 8,
+        "Olympic": 20
+    }[args.field_type]
+    
     distances = []
     wall_mask = compute_wallmask(image)
     dirt_mask = compute_dirtmask(image)
@@ -174,8 +167,8 @@ def compute_distances(args, image, home_px, first_px, third_px):
     angle_third_img = pixel_angle_from_home(home_px, third_px)
 
     feet_per_pixel = 90 / np.linalg.norm(np.array(home_px) - np.array(first_px))
-    MIN_DISTANCE_FEET = 275
-    min_distance_px = int(MIN_DISTANCE_FEET / feet_per_pixel)
+    feet_per_pixel /= (FEET_PER_PIXEL_CALIBRATION_TWEAK := 1.018347812)
+    min_distance_px = int((MIN_DISTANCE_FEET := 275) / feet_per_pixel)
 
     for angle_logical in range(-45, 46):
         t = (angle_logical + 45) / 90
@@ -186,29 +179,28 @@ def compute_distances(args, image, home_px, first_px, third_px):
             home_px, angle_image, wall_mask, min_distance_px
         )
         if d_pix is None:
-            distances.append((angle_logical, None, None))
+            distances.append((angle_logical, None, np.nan))
             continue
 
-        distances.append((angle_logical, hit_point, d_pix * feet_per_pixel + 21))
-            
-        #  d_feet = d_pix * feet_per_pixel
-        #  distances.append((angle_logical, d_feet + track_len))
-        #  angle_rad = math.radians(angle_image)
-        #  extra_px = int(track_len / feet_per_pixel)
-        #  offset_end = (
-        #      int(hit_point[0] + extra_px * math.cos(angle_rad)),
-        #      int(hit_point[1] - extra_px * math.sin(angle_rad))
-        #  )
-        #  wall_point, extra_feet = find_wall_after_offset(
-        #      offset_end, angle_image, dirt_edges, 15, feet_per_pixel
-        #  )
-        #  if wall_point is None:
-        #      continue
-        #  distances[-1] = (angle_logical, d_feet + extra_feet)
+        d_feet = d_pix * feet_per_pixel
+        distances.append((angle_logical, hit_point, d_feet + track_len))
+        
+        angle_rad = math.radians(angle_image)
+        extra_px = int(track_len / feet_per_pixel)
+        offset_end = (
+            int(hit_point[0] + extra_px * math.cos(angle_rad)),
+            int(hit_point[1] - extra_px * math.sin(angle_rad))
+        )
+        wall_point, extra_feet = find_wall_after_offset(
+            offset_end, angle_image, dirt_edges, track_len, feet_per_pixel
+        )
+        if wall_point is None:
+            continue
+        distances[-1] = (angle_logical, hit_point, d_feet + extra_feet)
         
     return distances
 
-def smooth_distances(distances, max_jump_ft=5):
+def smooth_distances(distances, max_jump_ft):
     smoothed = distances.copy()
     for i in range(1, len(distances) - 1):
         if not -38 <= distances[i][0] <= 38:
@@ -216,7 +208,7 @@ def smooth_distances(distances, max_jump_ft=5):
         prev_d = distances[i - 1][-1]
         curr_d = distances[i    ][-1]
         next_d = distances[i + 1][-1]
-        if curr_d is None or prev_d is None or next_d is None:
+        if np.isnan((prev_d, curr_d, next_d)).sum():
             continue
         if min(abs(curr_d - prev_d), abs(curr_d - next_d)) > max_jump_ft:
             smoothed[i] = (
@@ -228,10 +220,11 @@ def smooth_distances(distances, max_jump_ft=5):
 def create_visualization(image, distances, home_px, first_px, third_px):
     vis = image.copy()
     cv.circle(vis, home_px, 5, (255, 0, 0), -1)
-    
+
     angle_first_img = pixel_angle_from_home(home_px, first_px)
     angle_third_img = pixel_angle_from_home(home_px, third_px)
     feet_per_pixel = 90 / np.linalg.norm(np.array(home_px) - np.array(first_px))
+    feet_per_pixel /= (FEET_PER_PIXEL_CALIBRATION_TWEAK := 1.018347812)
     extra_px = int(21 / feet_per_pixel)
     
     for angle_logical, hit_point, d_feet in distances:
@@ -241,7 +234,7 @@ def create_visualization(image, distances, home_px, first_px, third_px):
         )
         angle_rad = math.radians(angle_image)
         
-        if d_feet is None:
+        if np.isnan(d_feet):
             end = (
                 int(home_px[0] + 1500 * math.cos(angle_rad)),
                 int(home_px[1] - 1500 * math.sin(angle_rad))
@@ -263,22 +256,140 @@ def create_visualization(image, distances, home_px, first_px, third_px):
         
     return vis
 
+def analyze_results(args, distances):
+    summary = {
+        "green_hits": [],
+        "yellow_partial": [],
+        "red_fail": [],
+        "distances_ft": [],
+        "angles": [],
+    }
+
+    for angle, _, dist in distances:
+        summary["angles"].append(angle)
+        summary["distances_ft"].append(dist)
+        if np.isnan(dist):
+            summary["red_fail"].append(angle)
+        elif dist < 300:
+            summary["yellow_partial"].append(angle)
+        else:
+            summary["green_hits"].append(angle)
+
+    dist_list = [d for d in summary["distances_ft"] if not np.isnan(d)]
+    min_dist, max_dist, avg_dist, std_dist = np.nan, np.nan, np.nan, np.nan
+    if dist_list:
+        min_dist = float(np.min (dist_list))
+        max_dist = float(np.max (dist_list))
+        avg_dist = float(np.mean(dist_list))
+        std_dist = float(np.std (dist_list))
+
+    errors = []
+    for i in range(1, len(distances) - 1):
+        a, _, d = distances[i]
+        _, _, prev_d = distances[i - 1]
+        _, _, next_d = distances[i + 1]
+        if d and prev_d and next_d:
+            neighbor_avg = (prev_d + next_d) / 2
+            errors.append(abs(d - neighbor_avg))
+    avg_error, std_error = np.nan, np.nan
+    if errors:
+        avg_error = float(np.nanmean(errors))
+        std_error = float(np.nanstd(errors))
+
+    angle_groups = {
+        "LF": (-45, -14),
+        "CF": (-14, 15),
+        "RF": (15, 46)
+    }
+    group_stats = {}
+    summary["angles"] = np.array(summary["angles"])
+    summary["distances_ft"] = np.array(summary["distances_ft"])
+    for name, (lower, upper) in angle_groups.items():
+        cond = (lower <= summary["angles"]) & (summary["angles"] < upper)
+        if (~np.isnan(group_vals := summary["distances_ft"][cond])).sum():
+            group_stats[name] = {
+                "count": group_vals.size,
+                "min": float(np.nanmin (group_vals)),
+                "max": float(np.nanmax (group_vals)),
+                "avg": float(np.nanmean(group_vals)),
+                "std": float(np.nanstd (group_vals))
+            }
+        else:
+            group_stats[name] = None
+
+    if args.graph_path is not None:
+        plt.figure(figsize=(5, 4))
+        plt.plot(summary["angles"], summary["distances_ft"], linewidth=2)
+        plt.title("Angle vs Outfield Distance")
+        plt.xlabel("Angle (deg)")
+        plt.ylabel("Distances (ft)")
+        plt.grid(True, alpha=0.3)
+        plt.savefig(args.graph_path, dpi=150)
+
+    warnings = []
+    if len(summary["red_fail"]) > 10:
+        warnings.append("Many angles failed, masks may need tuning")
+    if avg_error and avg_error > 10:
+        warnings.append("Large spikes detected, smoothingm may need tuning")
+    if min_dist and min_dist < 250:
+        warnings.append("Some distances very short (less than 250ft)")
+    
+    print("\n============= FIELD SUMMARY =============")
+    print(f"Successful detections (green): {len(summary["green_hits"])}")
+    print(f"Partial detections (yellow): {len(summary["yellow_partial"])}")
+    print(f"Failed detections (red): {len(summary["red_fail"])}")
+
+    print("\nDISTANCE  STATISTICS:")
+    print(f"Min distance: {min_dist}")
+    print(f"Max distance: {max_dist}")
+    print(f"Avg distance: {avg_dist}")
+    print(f"Distance Std: {std_dist}")
+
+    print("\nERROR ANALYSIS:")
+    print("Absolute differences between each distance and its immediate neighbors' average")
+    print(f"Avg error: {avg_error}")
+    print(f"Error Std: {std_error}")
+
+    print("\nREGIONAL BREAKDOWN (LEFT / CENTER / RIGHT FIELD):")
+    for name, stats in group_stats.items():
+        if stats:
+            print(f"{name}:", end=" ")
+            print(f"min = {stats["min"]:.1f} ft,", end=" ")
+            print(f"max = {stats["max"]:.1f} ft,", end=" ")
+            print(f"avg = {stats["avg"]:.1f} ft,", end=" ")
+            print(f"std = {stats["std"]:.1f} ft")
+        else:
+            print(f"{name}: no valid values")
+
+    if warnings:
+        print("\nWARNINGS:")
+        for w in warnings:
+            print("*", w)
+
 def write_outputs(args, distances, visualization):
-    cv.imwrite(args.vis_path, visualization)
-    with open(args.csv_path, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["Angle (deg)", "Distance (ft)"])
-        for angle, _, dist in distances:
-            writer.writerow([angle, dist if dist is not None else "NA"])
+    if args.csv_path is not None:
+        with open(args.csv_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Angle (deg)", "Distance (ft)"])
+            for angle, _, dist in distances:
+                writer.writerow([angle, dist if dist is not None else "NA"])
+    if args.vis_path is not None:
+        cv.imwrite(args.vis_path, visualization)
 
 def main():
     args = parse_arguments()
     if all(a for a in (args.latitude, args.longitude, args.zoom, args.api_key)):
         download_image(args)
+    
     image = cv.imread(args.image_path)
     home_px, first_px, third_px = select_bases(image)
     distances = compute_distances(args, image, home_px, first_px, third_px)
+    
+    if args.smooth_level > 0:
+        distances = smooth_distances(distances, args.smooth_level)
+    
     visualization = create_visualization(image, distances, home_px, first_px, third_px)
+    analyze_results(args, distances)
     write_outputs(args, distances, visualization)
 
 if __name__ == "__main__":
