@@ -1,0 +1,2549 @@
+year,venue_id,wall_theta,wall_distance,venue
+2025,1,-45,329.9,Angel Stadium
+2025,1,-44,339.1,Angel Stadium
+2025,1,-43,345.6,Angel Stadium
+2025,1,-42,350.8,Angel Stadium
+2025,1,-41,354.7,Angel Stadium
+2025,1,-40,357.6,Angel Stadium
+2025,1,-39,360,Angel Stadium
+2025,1,-38,361.7,Angel Stadium
+2025,1,-37,362.8,Angel Stadium
+2025,1,-36,364,Angel Stadium
+2025,1,-35,365.2,Angel Stadium
+2025,1,-34,366.6,Angel Stadium
+2025,1,-33,368.1,Angel Stadium
+2025,1,-32,369.7,Angel Stadium
+2025,1,-31,371.5,Angel Stadium
+2025,1,-30,373.4,Angel Stadium
+2025,1,-29,375.4,Angel Stadium
+2025,1,-28,377.5,Angel Stadium
+2025,1,-27,379.8,Angel Stadium
+2025,1,-26,382.3,Angel Stadium
+2025,1,-25,384.8,Angel Stadium
+2025,1,-24,387.6,Angel Stadium
+2025,1,-23,389.3,Angel Stadium
+2025,1,-22,388.4,Angel Stadium
+2025,1,-21,387.6,Angel Stadium
+2025,1,-20,387,Angel Stadium
+2025,1,-19,386.4,Angel Stadium
+2025,1,-18,386,Angel Stadium
+2025,1,-17,385.6,Angel Stadium
+2025,1,-16,385.4,Angel Stadium
+2025,1,-15,385.3,Angel Stadium
+2025,1,-14,385.4,Angel Stadium
+2025,1,-13,385.5,Angel Stadium
+2025,1,-12,385.8,Angel Stadium
+2025,1,-11,386.2,Angel Stadium
+2025,1,-10,386.7,Angel Stadium
+2025,1,-9,387.3,Angel Stadium
+2025,1,-8,388,Angel Stadium
+2025,1,-7,388.9,Angel Stadium
+2025,1,-6,389.9,Angel Stadium
+2025,1,-5,391,Angel Stadium
+2025,1,-4,392.2,Angel Stadium
+2025,1,-3,393.6,Angel Stadium
+2025,1,-2,395.1,Angel Stadium
+2025,1,-1,396.7,Angel Stadium
+2025,1,0,398.5,Angel Stadium
+2025,1,1,400.4,Angel Stadium
+2025,1,2,402.4,Angel Stadium
+2025,1,3,402.5,Angel Stadium
+2025,1,4,399.4,Angel Stadium
+2025,1,5,396.3,Angel Stadium
+2025,1,6,393.3,Angel Stadium
+2025,1,7,390.5,Angel Stadium
+2025,1,8,387.9,Angel Stadium
+2025,1,9,385.4,Angel Stadium
+2025,1,10,383.1,Angel Stadium
+2025,1,11,380.9,Angel Stadium
+2025,1,12,378.8,Angel Stadium
+2025,1,13,376.9,Angel Stadium
+2025,1,14,375.1,Angel Stadium
+2025,1,15,373.5,Angel Stadium
+2025,1,16,371.9,Angel Stadium
+2025,1,17,370.5,Angel Stadium
+2025,1,18,369.3,Angel Stadium
+2025,1,19,368.1,Angel Stadium
+2025,1,20,367.1,Angel Stadium
+2025,1,21,366.1,Angel Stadium
+2025,1,22,365.3,Angel Stadium
+2025,1,23,364.6,Angel Stadium
+2025,1,24,364.1,Angel Stadium
+2025,1,25,363.6,Angel Stadium
+2025,1,26,363.2,Angel Stadium
+2025,1,27,363,Angel Stadium
+2025,1,28,362.9,Angel Stadium
+2025,1,29,362.8,Angel Stadium
+2025,1,30,362.9,Angel Stadium
+2025,1,31,363.1,Angel Stadium
+2025,1,32,363.4,Angel Stadium
+2025,1,33,363.9,Angel Stadium
+2025,1,34,364.4,Angel Stadium
+2025,1,35,364.8,Angel Stadium
+2025,1,36,363.9,Angel Stadium
+2025,1,37,362.9,Angel Stadium
+2025,1,38,362.1,Angel Stadium
+2025,1,39,360.4,Angel Stadium
+2025,1,40,358.1,Angel Stadium
+2025,1,41,355.2,Angel Stadium
+2025,1,42,351,Angel Stadium
+2025,1,43,345.5,Angel Stadium
+2025,1,44,339,Angel Stadium
+2025,1,45,330,Angel Stadium
+2025,2,-45,332.9,Oriole Park at Camden Yards
+2025,2,-44,339.9,Oriole Park at Camden Yards
+2025,2,-43,352.3,Oriole Park at Camden Yards
+2025,2,-42,365.6,Oriole Park at Camden Yards
+2025,2,-41,373.5,Oriole Park at Camden Yards
+2025,2,-40,377,Oriole Park at Camden Yards
+2025,2,-39,380.5,Oriole Park at Camden Yards
+2025,2,-38,383.1,Oriole Park at Camden Yards
+2025,2,-37,382.9,Oriole Park at Camden Yards
+2025,2,-36,382.7,Oriole Park at Camden Yards
+2025,2,-35,382.5,Oriole Park at Camden Yards
+2025,2,-34,382.5,Oriole Park at Camden Yards
+2025,2,-33,382.6,Oriole Park at Camden Yards
+2025,2,-32,382.7,Oriole Park at Camden Yards
+2025,2,-31,383.1,Oriole Park at Camden Yards
+2025,2,-30,383.5,Oriole Park at Camden Yards
+2025,2,-29,384.1,Oriole Park at Camden Yards
+2025,2,-28,384.7,Oriole Park at Camden Yards
+2025,2,-27,385.5,Oriole Park at Camden Yards
+2025,2,-26,386.4,Oriole Park at Camden Yards
+2025,2,-25,387.5,Oriole Park at Camden Yards
+2025,2,-24,388.6,Oriole Park at Camden Yards
+2025,2,-23,389.9,Oriole Park at Camden Yards
+2025,2,-22,391.3,Oriole Park at Camden Yards
+2025,2,-21,392.9,Oriole Park at Camden Yards
+2025,2,-20,394.6,Oriole Park at Camden Yards
+2025,2,-19,396.4,Oriole Park at Camden Yards
+2025,2,-18,398.3,Oriole Park at Camden Yards
+2025,2,-17,397.5,Oriole Park at Camden Yards
+2025,2,-16,379,Oriole Park at Camden Yards
+2025,2,-15,376.6,Oriole Park at Camden Yards
+2025,2,-14,379.1,Oriole Park at Camden Yards
+2025,2,-13,381.6,Oriole Park at Camden Yards
+2025,2,-12,384.3,Oriole Park at Camden Yards
+2025,2,-11,387.1,Oriole Park at Camden Yards
+2025,2,-10,390.1,Oriole Park at Camden Yards
+2025,2,-9,393.2,Oriole Park at Camden Yards
+2025,2,-8,396.7,Oriole Park at Camden Yards
+2025,2,-7,400.2,Oriole Park at Camden Yards
+2025,2,-6,403.8,Oriole Park at Camden Yards
+2025,2,-5,407.7,Oriole Park at Camden Yards
+2025,2,-4,407.5,Oriole Park at Camden Yards
+2025,2,-3,405.5,Oriole Park at Camden Yards
+2025,2,-2,403.1,Oriole Park at Camden Yards
+2025,2,-1,401.1,Oriole Park at Camden Yards
+2025,2,0,399.1,Oriole Park at Camden Yards
+2025,2,1,397.3,Oriole Park at Camden Yards
+2025,2,2,395.5,Oriole Park at Camden Yards
+2025,2,3,394,Oriole Park at Camden Yards
+2025,2,4,392.6,Oriole Park at Camden Yards
+2025,2,5,391.3,Oriole Park at Camden Yards
+2025,2,6,390.2,Oriole Park at Camden Yards
+2025,2,7,389.1,Oriole Park at Camden Yards
+2025,2,8,388.2,Oriole Park at Camden Yards
+2025,2,9,387.4,Oriole Park at Camden Yards
+2025,2,10,386.7,Oriole Park at Camden Yards
+2025,2,11,386.1,Oriole Park at Camden Yards
+2025,2,12,385.6,Oriole Park at Camden Yards
+2025,2,13,385.4,Oriole Park at Camden Yards
+2025,2,14,385.1,Oriole Park at Camden Yards
+2025,2,15,385,Oriole Park at Camden Yards
+2025,2,16,385.1,Oriole Park at Camden Yards
+2025,2,17,385.2,Oriole Park at Camden Yards
+2025,2,18,385.5,Oriole Park at Camden Yards
+2025,2,19,385.9,Oriole Park at Camden Yards
+2025,2,20,384.4,Oriole Park at Camden Yards
+2025,2,21,379.9,Oriole Park at Camden Yards
+2025,2,22,375.3,Oriole Park at Camden Yards
+2025,2,23,371,Oriole Park at Camden Yards
+2025,2,24,366.9,Oriole Park at Camden Yards
+2025,2,25,363,Oriole Park at Camden Yards
+2025,2,26,359.3,Oriole Park at Camden Yards
+2025,2,27,355.7,Oriole Park at Camden Yards
+2025,2,28,352.3,Oriole Park at Camden Yards
+2025,2,29,349.2,Oriole Park at Camden Yards
+2025,2,30,346.2,Oriole Park at Camden Yards
+2025,2,31,343.4,Oriole Park at Camden Yards
+2025,2,32,340.6,Oriole Park at Camden Yards
+2025,2,33,338.2,Oriole Park at Camden Yards
+2025,2,34,335.7,Oriole Park at Camden Yards
+2025,2,35,333.5,Oriole Park at Camden Yards
+2025,2,36,331.3,Oriole Park at Camden Yards
+2025,2,37,329.3,Oriole Park at Camden Yards
+2025,2,38,327.4,Oriole Park at Camden Yards
+2025,2,39,325.6,Oriole Park at Camden Yards
+2025,2,40,324,Oriole Park at Camden Yards
+2025,2,41,322.4,Oriole Park at Camden Yards
+2025,2,42,321,Oriole Park at Camden Yards
+2025,2,43,319.7,Oriole Park at Camden Yards
+2025,2,44,318.5,Oriole Park at Camden Yards
+2025,2,45,317.6,Oriole Park at Camden Yards
+2025,3,-45,308.8,Fenway Park
+2025,3,-44,308.8,Fenway Park
+2025,3,-43,308.8,Fenway Park
+2025,3,-42,309,Fenway Park
+2025,3,-41,309.3,Fenway Park
+2025,3,-40,309.6,Fenway Park
+2025,3,-39,310.1,Fenway Park
+2025,3,-38,310.7,Fenway Park
+2025,3,-37,311.3,Fenway Park
+2025,3,-36,312.1,Fenway Park
+2025,3,-35,312.9,Fenway Park
+2025,3,-34,313.8,Fenway Park
+2025,3,-33,314.9,Fenway Park
+2025,3,-32,316,Fenway Park
+2025,3,-31,317.3,Fenway Park
+2025,3,-30,318.7,Fenway Park
+2025,3,-29,320.1,Fenway Park
+2025,3,-28,321.7,Fenway Park
+2025,3,-27,323.4,Fenway Park
+2025,3,-26,325.3,Fenway Park
+2025,3,-25,327.2,Fenway Park
+2025,3,-24,329.3,Fenway Park
+2025,3,-23,331.5,Fenway Park
+2025,3,-22,333.8,Fenway Park
+2025,3,-21,336.2,Fenway Park
+2025,3,-20,338.8,Fenway Park
+2025,3,-19,341.6,Fenway Park
+2025,3,-18,344.5,Fenway Park
+2025,3,-17,347.5,Fenway Park
+2025,3,-16,350.8,Fenway Park
+2025,3,-15,354.1,Fenway Park
+2025,3,-14,357.7,Fenway Park
+2025,3,-13,361.4,Fenway Park
+2025,3,-12,365.4,Fenway Park
+2025,3,-11,369.5,Fenway Park
+2025,3,-10,373.9,Fenway Park
+2025,3,-9,378.4,Fenway Park
+2025,3,-8,381.9,Fenway Park
+2025,3,-7,381.2,Fenway Park
+2025,3,-6,380.9,Fenway Park
+2025,3,-5,382,Fenway Park
+2025,3,-4,383.2,Fenway Park
+2025,3,-3,384.5,Fenway Park
+2025,3,-2,386,Fenway Park
+2025,3,-1,387.5,Fenway Park
+2025,3,0,389.3,Fenway Park
+2025,3,1,391.1,Fenway Park
+2025,3,2,393.1,Fenway Park
+2025,3,3,395.2,Fenway Park
+2025,3,4,397.5,Fenway Park
+2025,3,5,399.9,Fenway Park
+2025,3,6,402.5,Fenway Park
+2025,3,7,405.3,Fenway Park
+2025,3,8,408.1,Fenway Park
+2025,3,9,411.2,Fenway Park
+2025,3,10,414.5,Fenway Park
+2025,3,11,417.3,Fenway Park
+2025,3,12,409.2,Fenway Park
+2025,3,13,396.1,Fenway Park
+2025,3,14,385.1,Fenway Park
+2025,3,15,381.4,Fenway Park
+2025,3,16,380.2,Fenway Park
+2025,3,17,379.2,Fenway Park
+2025,3,18,378.3,Fenway Park
+2025,3,19,377.5,Fenway Park
+2025,3,20,376.8,Fenway Park
+2025,3,21,376.2,Fenway Park
+2025,3,22,375.8,Fenway Park
+2025,3,23,375.4,Fenway Park
+2025,3,24,375.2,Fenway Park
+2025,3,25,375.1,Fenway Park
+2025,3,26,375.1,Fenway Park
+2025,3,27,375.2,Fenway Park
+2025,3,28,375.5,Fenway Park
+2025,3,29,375.8,Fenway Park
+2025,3,30,376.3,Fenway Park
+2025,3,31,376.9,Fenway Park
+2025,3,32,377.6,Fenway Park
+2025,3,33,378.4,Fenway Park
+2025,3,34,379.3,Fenway Park
+2025,3,35,380.3,Fenway Park
+2025,3,36,381.1,Fenway Park
+2025,3,37,380.8,Fenway Park
+2025,3,38,379.5,Fenway Park
+2025,3,39,376.8,Fenway Park
+2025,3,40,372.5,Fenway Park
+2025,3,41,365.9,Fenway Park
+2025,3,42,353.5,Fenway Park
+2025,3,43,333.4,Fenway Park
+2025,3,44,315.3,Fenway Park
+2025,3,45,299.3,Fenway Park
+2025,4,-45,328.2,Rate Field
+2025,4,-44,329.2,Rate Field
+2025,4,-43,330.4,Rate Field
+2025,4,-42,331.7,Rate Field
+2025,4,-41,333.1,Rate Field
+2025,4,-40,334.6,Rate Field
+2025,4,-39,336.2,Rate Field
+2025,4,-38,337.9,Rate Field
+2025,4,-37,339.8,Rate Field
+2025,4,-36,341.8,Rate Field
+2025,4,-35,343.9,Rate Field
+2025,4,-34,346.1,Rate Field
+2025,4,-33,348.1,Rate Field
+2025,4,-32,349.3,Rate Field
+2025,4,-31,350.6,Rate Field
+2025,4,-30,352,Rate Field
+2025,4,-29,353.6,Rate Field
+2025,4,-28,355.3,Rate Field
+2025,4,-27,357.1,Rate Field
+2025,4,-26,359,Rate Field
+2025,4,-25,361.1,Rate Field
+2025,4,-24,363.3,Rate Field
+2025,4,-23,365.6,Rate Field
+2025,4,-22,368.1,Rate Field
+2025,4,-21,370.8,Rate Field
+2025,4,-20,373.5,Rate Field
+2025,4,-19,376.5,Rate Field
+2025,4,-18,378.7,Rate Field
+2025,4,-17,380.8,Rate Field
+2025,4,-16,382.8,Rate Field
+2025,4,-15,384.3,Rate Field
+2025,4,-14,386,Rate Field
+2025,4,-13,387.8,Rate Field
+2025,4,-12,389,Rate Field
+2025,4,-11,390.2,Rate Field
+2025,4,-10,391.4,Rate Field
+2025,4,-9,392.8,Rate Field
+2025,4,-8,394.9,Rate Field
+2025,4,-7,397.8,Rate Field
+2025,4,-6,400.9,Rate Field
+2025,4,-5,401.3,Rate Field
+2025,4,-4,400.8,Rate Field
+2025,4,-3,400.4,Rate Field
+2025,4,-2,400,Rate Field
+2025,4,-1,399.9,Rate Field
+2025,4,0,399.8,Rate Field
+2025,4,1,399.8,Rate Field
+2025,4,2,400,Rate Field
+2025,4,3,400.3,Rate Field
+2025,4,4,400.7,Rate Field
+2025,4,5,401.1,Rate Field
+2025,4,6,400.7,Rate Field
+2025,4,7,397.8,Rate Field
+2025,4,8,394.9,Rate Field
+2025,4,9,393,Rate Field
+2025,4,10,391.7,Rate Field
+2025,4,11,390.6,Rate Field
+2025,4,12,389.6,Rate Field
+2025,4,13,388.7,Rate Field
+2025,4,14,386.7,Rate Field
+2025,4,15,384.8,Rate Field
+2025,4,16,383,Rate Field
+2025,4,17,381.4,Rate Field
+2025,4,18,379.9,Rate Field
+2025,4,19,378.2,Rate Field
+2025,4,20,375.8,Rate Field
+2025,4,21,373.6,Rate Field
+2025,4,22,371.3,Rate Field
+2025,4,23,368.4,Rate Field
+2025,4,24,365.6,Rate Field
+2025,4,25,362.9,Rate Field
+2025,4,26,360.4,Rate Field
+2025,4,27,358.1,Rate Field
+2025,4,28,355.9,Rate Field
+2025,4,29,353.8,Rate Field
+2025,4,30,351.7,Rate Field
+2025,4,31,349.8,Rate Field
+2025,4,32,347.9,Rate Field
+2025,4,33,346.2,Rate Field
+2025,4,34,344.7,Rate Field
+2025,4,35,343.2,Rate Field
+2025,4,36,341.9,Rate Field
+2025,4,37,340.6,Rate Field
+2025,4,38,339.5,Rate Field
+2025,4,39,338.5,Rate Field
+2025,4,40,337.6,Rate Field
+2025,4,41,336.8,Rate Field
+2025,4,42,336.1,Rate Field
+2025,4,43,335.5,Rate Field
+2025,4,44,335.1,Rate Field
+2025,4,45,334.7,Rate Field
+2025,5,-45,324.8,Progressive Field
+2025,5,-44,326.7,Progressive Field
+2025,5,-43,328.6,Progressive Field
+2025,5,-42,330.7,Progressive Field
+2025,5,-41,333,Progressive Field
+2025,5,-40,335.3,Progressive Field
+2025,5,-39,337.8,Progressive Field
+2025,5,-38,340.4,Progressive Field
+2025,5,-37,343.2,Progressive Field
+2025,5,-36,346.2,Progressive Field
+2025,5,-35,349.3,Progressive Field
+2025,5,-34,352.5,Progressive Field
+2025,5,-33,354.1,Progressive Field
+2025,5,-32,354.2,Progressive Field
+2025,5,-31,354.5,Progressive Field
+2025,5,-30,354.8,Progressive Field
+2025,5,-29,355.3,Progressive Field
+2025,5,-28,355.9,Progressive Field
+2025,5,-27,356.6,Progressive Field
+2025,5,-26,357.4,Progressive Field
+2025,5,-25,358.3,Progressive Field
+2025,5,-24,359.3,Progressive Field
+2025,5,-23,360.4,Progressive Field
+2025,5,-22,361.7,Progressive Field
+2025,5,-21,363.1,Progressive Field
+2025,5,-20,364.5,Progressive Field
+2025,5,-19,366.2,Progressive Field
+2025,5,-18,367.9,Progressive Field
+2025,5,-17,369.8,Progressive Field
+2025,5,-16,371.8,Progressive Field
+2025,5,-15,374,Progressive Field
+2025,5,-14,376.2,Progressive Field
+2025,5,-13,378.7,Progressive Field
+2025,5,-12,381.3,Progressive Field
+2025,5,-11,384,Progressive Field
+2025,5,-10,386.9,Progressive Field
+2025,5,-9,389.9,Progressive Field
+2025,5,-8,393.2,Progressive Field
+2025,5,-7,396.6,Progressive Field
+2025,5,-6,400.2,Progressive Field
+2025,5,-5,403.9,Progressive Field
+2025,5,-4,407.7,Progressive Field
+2025,5,-3,408.5,Progressive Field
+2025,5,-2,405.6,Progressive Field
+2025,5,-1,402.8,Progressive Field
+2025,5,0,400.1,Progressive Field
+2025,5,1,397.5,Progressive Field
+2025,5,2,395.1,Progressive Field
+2025,5,3,392.9,Progressive Field
+2025,5,4,390.8,Progressive Field
+2025,5,5,388.8,Progressive Field
+2025,5,6,387,Progressive Field
+2025,5,7,385.3,Progressive Field
+2025,5,8,383.7,Progressive Field
+2025,5,9,382.3,Progressive Field
+2025,5,10,381,Progressive Field
+2025,5,11,379.8,Progressive Field
+2025,5,12,378.7,Progressive Field
+2025,5,13,377.8,Progressive Field
+2025,5,14,377,Progressive Field
+2025,5,15,376.3,Progressive Field
+2025,5,16,375.7,Progressive Field
+2025,5,17,375.2,Progressive Field
+2025,5,18,374.9,Progressive Field
+2025,5,19,374.6,Progressive Field
+2025,5,20,374.5,Progressive Field
+2025,5,21,374.5,Progressive Field
+2025,5,22,374.6,Progressive Field
+2025,5,23,374.8,Progressive Field
+2025,5,24,375,Progressive Field
+2025,5,25,372.3,Progressive Field
+2025,5,26,368.5,Progressive Field
+2025,5,27,364.9,Progressive Field
+2025,5,28,361.4,Progressive Field
+2025,5,29,358.2,Progressive Field
+2025,5,30,355.1,Progressive Field
+2025,5,31,352.1,Progressive Field
+2025,5,32,349.3,Progressive Field
+2025,5,33,346.7,Progressive Field
+2025,5,34,344.1,Progressive Field
+2025,5,35,341.8,Progressive Field
+2025,5,36,339.6,Progressive Field
+2025,5,37,337.5,Progressive Field
+2025,5,38,335.5,Progressive Field
+2025,5,39,333.6,Progressive Field
+2025,5,40,331.9,Progressive Field
+2025,5,41,330.3,Progressive Field
+2025,5,42,328.8,Progressive Field
+2025,5,43,327.2,Progressive Field
+2025,5,44,325.8,Progressive Field
+2025,5,45,324.6,Progressive Field
+2025,7,-45,327.5,Kauffman Stadium
+2025,7,-44,338.3,Kauffman Stadium
+2025,7,-43,345.2,Kauffman Stadium
+2025,7,-42,350.6,Kauffman Stadium
+2025,7,-41,354.6,Kauffman Stadium
+2025,7,-40,357.1,Kauffman Stadium
+2025,7,-39,358.2,Kauffman Stadium
+2025,7,-38,359.3,Kauffman Stadium
+2025,7,-37,360.6,Kauffman Stadium
+2025,7,-36,362,Kauffman Stadium
+2025,7,-35,363.4,Kauffman Stadium
+2025,7,-34,365.1,Kauffman Stadium
+2025,7,-33,366.9,Kauffman Stadium
+2025,7,-32,369,Kauffman Stadium
+2025,7,-31,371.1,Kauffman Stadium
+2025,7,-30,373.2,Kauffman Stadium
+2025,7,-29,375.4,Kauffman Stadium
+2025,7,-28,377,Kauffman Stadium
+2025,7,-27,378.4,Kauffman Stadium
+2025,7,-26,380,Kauffman Stadium
+2025,7,-25,381.6,Kauffman Stadium
+2025,7,-24,383.2,Kauffman Stadium
+2025,7,-23,384.9,Kauffman Stadium
+2025,7,-22,386.6,Kauffman Stadium
+2025,7,-21,388.1,Kauffman Stadium
+2025,7,-20,389.8,Kauffman Stadium
+2025,7,-19,391.3,Kauffman Stadium
+2025,7,-18,393,Kauffman Stadium
+2025,7,-17,394.5,Kauffman Stadium
+2025,7,-16,396.1,Kauffman Stadium
+2025,7,-15,397.6,Kauffman Stadium
+2025,7,-14,399,Kauffman Stadium
+2025,7,-13,400.5,Kauffman Stadium
+2025,7,-12,402.1,Kauffman Stadium
+2025,7,-11,403.2,Kauffman Stadium
+2025,7,-10,404.5,Kauffman Stadium
+2025,7,-9,405.5,Kauffman Stadium
+2025,7,-8,406.5,Kauffman Stadium
+2025,7,-7,407.6,Kauffman Stadium
+2025,7,-6,408.1,Kauffman Stadium
+2025,7,-5,408.6,Kauffman Stadium
+2025,7,-4,409.3,Kauffman Stadium
+2025,7,-3,409.8,Kauffman Stadium
+2025,7,-2,410,Kauffman Stadium
+2025,7,-1,410.2,Kauffman Stadium
+2025,7,0,410.1,Kauffman Stadium
+2025,7,1,410.1,Kauffman Stadium
+2025,7,2,410,Kauffman Stadium
+2025,7,3,409.5,Kauffman Stadium
+2025,7,4,409.1,Kauffman Stadium
+2025,7,5,408.9,Kauffman Stadium
+2025,7,6,408,Kauffman Stadium
+2025,7,7,407.3,Kauffman Stadium
+2025,7,8,406.7,Kauffman Stadium
+2025,7,9,405.6,Kauffman Stadium
+2025,7,10,404.3,Kauffman Stadium
+2025,7,11,402.9,Kauffman Stadium
+2025,7,12,401.7,Kauffman Stadium
+2025,7,13,400.1,Kauffman Stadium
+2025,7,14,398.3,Kauffman Stadium
+2025,7,15,396.6,Kauffman Stadium
+2025,7,16,395.1,Kauffman Stadium
+2025,7,17,393.7,Kauffman Stadium
+2025,7,18,392.4,Kauffman Stadium
+2025,7,19,390.8,Kauffman Stadium
+2025,7,20,389,Kauffman Stadium
+2025,7,21,387.4,Kauffman Stadium
+2025,7,22,385.9,Kauffman Stadium
+2025,7,23,384.6,Kauffman Stadium
+2025,7,24,383.1,Kauffman Stadium
+2025,7,25,381.4,Kauffman Stadium
+2025,7,26,379.8,Kauffman Stadium
+2025,7,27,378.3,Kauffman Stadium
+2025,7,28,377,Kauffman Stadium
+2025,7,29,375.2,Kauffman Stadium
+2025,7,30,373,Kauffman Stadium
+2025,7,31,370.9,Kauffman Stadium
+2025,7,32,369,Kauffman Stadium
+2025,7,33,367.2,Kauffman Stadium
+2025,7,34,365.6,Kauffman Stadium
+2025,7,35,364.1,Kauffman Stadium
+2025,7,36,362.7,Kauffman Stadium
+2025,7,37,361.4,Kauffman Stadium
+2025,7,38,360.1,Kauffman Stadium
+2025,7,39,359,Kauffman Stadium
+2025,7,40,357.7,Kauffman Stadium
+2025,7,41,354.6,Kauffman Stadium
+2025,7,42,350.4,Kauffman Stadium
+2025,7,43,345.2,Kauffman Stadium
+2025,7,44,337.9,Kauffman Stadium
+2025,7,45,327.3,Kauffman Stadium
+2025,14,-45,328.1,Rogers Centre
+2025,14,-44,328.9,Rogers Centre
+2025,14,-43,329.9,Rogers Centre
+2025,14,-42,330.9,Rogers Centre
+2025,14,-41,332,Rogers Centre
+2025,14,-40,333.3,Rogers Centre
+2025,14,-39,334.7,Rogers Centre
+2025,14,-38,336.1,Rogers Centre
+2025,14,-37,337.7,Rogers Centre
+2025,14,-36,339.5,Rogers Centre
+2025,14,-35,341.3,Rogers Centre
+2025,14,-34,343.3,Rogers Centre
+2025,14,-33,345.3,Rogers Centre
+2025,14,-32,347.6,Rogers Centre
+2025,14,-31,349.9,Rogers Centre
+2025,14,-30,352.4,Rogers Centre
+2025,14,-29,355.1,Rogers Centre
+2025,14,-28,357.9,Rogers Centre
+2025,14,-27,360.8,Rogers Centre
+2025,14,-26,363.9,Rogers Centre
+2025,14,-25,367.2,Rogers Centre
+2025,14,-24,370.6,Rogers Centre
+2025,14,-23,374.2,Rogers Centre
+2025,14,-22,376.7,Rogers Centre
+2025,14,-21,378.3,Rogers Centre
+2025,14,-20,380,Rogers Centre
+2025,14,-19,381.8,Rogers Centre
+2025,14,-18,383.7,Rogers Centre
+2025,14,-17,385.8,Rogers Centre
+2025,14,-16,388.1,Rogers Centre
+2025,14,-15,390.5,Rogers Centre
+2025,14,-14,393,Rogers Centre
+2025,14,-13,395.6,Rogers Centre
+2025,14,-12,396.4,Rogers Centre
+2025,14,-11,396.8,Rogers Centre
+2025,14,-10,397.4,Rogers Centre
+2025,14,-9,398.1,Rogers Centre
+2025,14,-8,398.9,Rogers Centre
+2025,14,-7,399.1,Rogers Centre
+2025,14,-6,399.3,Rogers Centre
+2025,14,-5,399.5,Rogers Centre
+2025,14,-4,399.9,Rogers Centre
+2025,14,-3,400.4,Rogers Centre
+2025,14,-2,400.5,Rogers Centre
+2025,14,-1,400.3,Rogers Centre
+2025,14,0,400.2,Rogers Centre
+2025,14,1,400.3,Rogers Centre
+2025,14,2,400.5,Rogers Centre
+2025,14,3,400.3,Rogers Centre
+2025,14,4,399.9,Rogers Centre
+2025,14,5,399.5,Rogers Centre
+2025,14,6,399.3,Rogers Centre
+2025,14,7,399.2,Rogers Centre
+2025,14,8,398.9,Rogers Centre
+2025,14,9,398.1,Rogers Centre
+2025,14,10,397.4,Rogers Centre
+2025,14,11,396.8,Rogers Centre
+2025,14,12,396.4,Rogers Centre
+2025,14,13,395.6,Rogers Centre
+2025,14,14,392.9,Rogers Centre
+2025,14,15,390.4,Rogers Centre
+2025,14,16,388.1,Rogers Centre
+2025,14,17,385.9,Rogers Centre
+2025,14,18,383.8,Rogers Centre
+2025,14,19,381.9,Rogers Centre
+2025,14,20,380.1,Rogers Centre
+2025,14,21,378.4,Rogers Centre
+2025,14,22,376.8,Rogers Centre
+2025,14,23,374.4,Rogers Centre
+2025,14,24,370.8,Rogers Centre
+2025,14,25,367.4,Rogers Centre
+2025,14,26,364.1,Rogers Centre
+2025,14,27,361,Rogers Centre
+2025,14,28,358,Rogers Centre
+2025,14,29,355.3,Rogers Centre
+2025,14,30,352.6,Rogers Centre
+2025,14,31,350.1,Rogers Centre
+2025,14,32,347.8,Rogers Centre
+2025,14,33,345.5,Rogers Centre
+2025,14,34,343.5,Rogers Centre
+2025,14,35,341.5,Rogers Centre
+2025,14,36,339.7,Rogers Centre
+2025,14,37,338,Rogers Centre
+2025,14,38,336.4,Rogers Centre
+2025,14,39,334.9,Rogers Centre
+2025,14,40,333.5,Rogers Centre
+2025,14,41,332.3,Rogers Centre
+2025,14,42,331.1,Rogers Centre
+2025,14,43,330.1,Rogers Centre
+2025,14,44,329.2,Rogers Centre
+2025,14,45,328.4,Rogers Centre
+2025,15,-45,329.7,Chase Field
+2025,15,-44,335.5,Chase Field
+2025,15,-43,341.9,Chase Field
+2025,15,-42,348.7,Chase Field
+2025,15,-41,355.8,Chase Field
+2025,15,-40,363.3,Chase Field
+2025,15,-39,360.2,Chase Field
+2025,15,-38,355.3,Chase Field
+2025,15,-37,355.5,Chase Field
+2025,15,-36,356.1,Chase Field
+2025,15,-35,356.8,Chase Field
+2025,15,-34,357.6,Chase Field
+2025,15,-33,358.5,Chase Field
+2025,15,-32,359.6,Chase Field
+2025,15,-31,360.8,Chase Field
+2025,15,-30,362,Chase Field
+2025,15,-29,363.5,Chase Field
+2025,15,-28,365,Chase Field
+2025,15,-27,366.6,Chase Field
+2025,15,-26,368.4,Chase Field
+2025,15,-25,370.3,Chase Field
+2025,15,-24,372.4,Chase Field
+2025,15,-23,374.6,Chase Field
+2025,15,-22,376.9,Chase Field
+2025,15,-21,379.4,Chase Field
+2025,15,-20,382,Chase Field
+2025,15,-19,384.8,Chase Field
+2025,15,-18,387.7,Chase Field
+2025,15,-17,390.8,Chase Field
+2025,15,-16,394.1,Chase Field
+2025,15,-15,397.5,Chase Field
+2025,15,-14,401.2,Chase Field
+2025,15,-13,405,Chase Field
+2025,15,-12,409,Chase Field
+2025,15,-11,411.7,Chase Field
+2025,15,-10,411.9,Chase Field
+2025,15,-9,411.8,Chase Field
+2025,15,-8,410.7,Chase Field
+2025,15,-7,409.8,Chase Field
+2025,15,-6,408.9,Chase Field
+2025,15,-5,408.3,Chase Field
+2025,15,-4,407.7,Chase Field
+2025,15,-3,407.3,Chase Field
+2025,15,-2,406.9,Chase Field
+2025,15,-1,405,Chase Field
+2025,15,0,404.9,Chase Field
+2025,15,1,405,Chase Field
+2025,15,2,407,Chase Field
+2025,15,3,407.4,Chase Field
+2025,15,4,407.8,Chase Field
+2025,15,5,408.4,Chase Field
+2025,15,6,409.1,Chase Field
+2025,15,7,409.9,Chase Field
+2025,15,8,410.8,Chase Field
+2025,15,9,411.9,Chase Field
+2025,15,10,410.5,Chase Field
+2025,15,11,411.8,Chase Field
+2025,15,12,408.7,Chase Field
+2025,15,13,404.7,Chase Field
+2025,15,14,400.9,Chase Field
+2025,15,15,397.3,Chase Field
+2025,15,16,393.8,Chase Field
+2025,15,17,390.6,Chase Field
+2025,15,18,387.5,Chase Field
+2025,15,19,384.6,Chase Field
+2025,15,20,381.8,Chase Field
+2025,15,21,379.2,Chase Field
+2025,15,22,376.7,Chase Field
+2025,15,23,374.4,Chase Field
+2025,15,24,372.7,Chase Field
+2025,15,25,370.6,Chase Field
+2025,15,26,368.7,Chase Field
+2025,15,27,366.9,Chase Field
+2025,15,28,365.3,Chase Field
+2025,15,29,363.7,Chase Field
+2025,15,30,362.3,Chase Field
+2025,15,31,361,Chase Field
+2025,15,32,359.9,Chase Field
+2025,15,33,358.8,Chase Field
+2025,15,34,357.9,Chase Field
+2025,15,35,357,Chase Field
+2025,15,36,356.3,Chase Field
+2025,15,37,355.7,Chase Field
+2025,15,38,355.2,Chase Field
+2025,15,39,355,Chase Field
+2025,15,40,359,Chase Field
+2025,15,41,359.6,Chase Field
+2025,15,42,352.7,Chase Field
+2025,15,43,346,Chase Field
+2025,15,44,339.6,Chase Field
+2025,15,45,333.6,Chase Field
+2025,17,-45,349.3,Wrigley Field
+2025,17,-44,353.7,Wrigley Field
+2025,17,-43,353.3,Wrigley Field
+2025,17,-42,352.9,Wrigley Field
+2025,17,-41,352.7,Wrigley Field
+2025,17,-40,352.6,Wrigley Field
+2025,17,-39,352.6,Wrigley Field
+2025,17,-38,352.7,Wrigley Field
+2025,17,-37,352.8,Wrigley Field
+2025,17,-36,353.2,Wrigley Field
+2025,17,-35,353.6,Wrigley Field
+2025,17,-34,354.1,Wrigley Field
+2025,17,-33,354.7,Wrigley Field
+2025,17,-32,355.5,Wrigley Field
+2025,17,-31,356.3,Wrigley Field
+2025,17,-30,357.1,Wrigley Field
+2025,17,-29,351.1,Wrigley Field
+2025,17,-28,349.3,Wrigley Field
+2025,17,-27,350,Wrigley Field
+2025,17,-26,350.5,Wrigley Field
+2025,17,-25,351.1,Wrigley Field
+2025,17,-24,351.8,Wrigley Field
+2025,17,-23,352.6,Wrigley Field
+2025,17,-22,353.6,Wrigley Field
+2025,17,-21,354.6,Wrigley Field
+2025,17,-20,355.8,Wrigley Field
+2025,17,-19,357.1,Wrigley Field
+2025,17,-18,358.5,Wrigley Field
+2025,17,-17,360,Wrigley Field
+2025,17,-16,361.6,Wrigley Field
+2025,17,-15,363.4,Wrigley Field
+2025,17,-14,365.3,Wrigley Field
+2025,17,-13,367.3,Wrigley Field
+2025,17,-12,369.5,Wrigley Field
+2025,17,-11,371.8,Wrigley Field
+2025,17,-10,374.2,Wrigley Field
+2025,17,-9,376.8,Wrigley Field
+2025,17,-8,379.6,Wrigley Field
+2025,17,-7,382.5,Wrigley Field
+2025,17,-6,385.6,Wrigley Field
+2025,17,-5,388.8,Wrigley Field
+2025,17,-4,391.7,Wrigley Field
+2025,17,-3,394,Wrigley Field
+2025,17,-2,396.1,Wrigley Field
+2025,17,-1,397.9,Wrigley Field
+2025,17,0,399,Wrigley Field
+2025,17,1,400.3,Wrigley Field
+2025,17,2,401.5,Wrigley Field
+2025,17,3,402.6,Wrigley Field
+2025,17,4,403.2,Wrigley Field
+2025,17,5,403.7,Wrigley Field
+2025,17,6,403.4,Wrigley Field
+2025,17,7,402.6,Wrigley Field
+2025,17,8,402,Wrigley Field
+2025,17,9,401,Wrigley Field
+2025,17,10,400.2,Wrigley Field
+2025,17,11,399,Wrigley Field
+2025,17,12,397,Wrigley Field
+2025,17,13,394.9,Wrigley Field
+2025,17,14,392.7,Wrigley Field
+2025,17,15,390.6,Wrigley Field
+2025,17,16,388,Wrigley Field
+2025,17,17,385.1,Wrigley Field
+2025,17,18,382.3,Wrigley Field
+2025,17,19,379.2,Wrigley Field
+2025,17,20,376.1,Wrigley Field
+2025,17,21,373.1,Wrigley Field
+2025,17,22,370.3,Wrigley Field
+2025,17,23,367.7,Wrigley Field
+2025,17,24,365.2,Wrigley Field
+2025,17,25,362.9,Wrigley Field
+2025,17,26,360.7,Wrigley Field
+2025,17,27,358.6,Wrigley Field
+2025,17,28,356.7,Wrigley Field
+2025,17,29,354.9,Wrigley Field
+2025,17,30,353.2,Wrigley Field
+2025,17,31,351.7,Wrigley Field
+2025,17,32,353.5,Wrigley Field
+2025,17,33,361.3,Wrigley Field
+2025,17,34,364.5,Wrigley Field
+2025,17,35,363.2,Wrigley Field
+2025,17,36,361.5,Wrigley Field
+2025,17,37,359.9,Wrigley Field
+2025,17,38,358.4,Wrigley Field
+2025,17,39,357,Wrigley Field
+2025,17,40,355.7,Wrigley Field
+2025,17,41,354.6,Wrigley Field
+2025,17,42,353.5,Wrigley Field
+2025,17,43,352.6,Wrigley Field
+2025,17,44,352.1,Wrigley Field
+2025,17,45,351.1,Wrigley Field
+2025,19,-45,347.3,Coors Field
+2025,19,-44,347.9,Coors Field
+2025,19,-43,348.6,Coors Field
+2025,19,-42,349.5,Coors Field
+2025,19,-41,350.4,Coors Field
+2025,19,-40,351.4,Coors Field
+2025,19,-39,352.5,Coors Field
+2025,19,-38,353.8,Coors Field
+2025,19,-37,355.2,Coors Field
+2025,19,-36,356.7,Coors Field
+2025,19,-35,358.3,Coors Field
+2025,19,-34,360,Coors Field
+2025,19,-33,361.9,Coors Field
+2025,19,-32,363.9,Coors Field
+2025,19,-31,366,Coors Field
+2025,19,-30,368.3,Coors Field
+2025,19,-29,370.7,Coors Field
+2025,19,-28,373.2,Coors Field
+2025,19,-27,375.9,Coors Field
+2025,19,-26,378.8,Coors Field
+2025,19,-25,381.8,Coors Field
+2025,19,-24,385,Coors Field
+2025,19,-23,388.3,Coors Field
+2025,19,-22,391.9,Coors Field
+2025,19,-21,395.6,Coors Field
+2025,19,-20,399.5,Coors Field
+2025,19,-19,403.7,Coors Field
+2025,19,-18,408,Coors Field
+2025,19,-17,412.6,Coors Field
+2025,19,-16,417.3,Coors Field
+2025,19,-15,419.6,Coors Field
+2025,19,-14,418.5,Coors Field
+2025,19,-13,417.5,Coors Field
+2025,19,-12,416.5,Coors Field
+2025,19,-11,415.7,Coors Field
+2025,19,-10,415,Coors Field
+2025,19,-9,414.4,Coors Field
+2025,19,-8,414,Coors Field
+2025,19,-7,413.7,Coors Field
+2025,19,-6,413.5,Coors Field
+2025,19,-5,413.4,Coors Field
+2025,19,-4,413.5,Coors Field
+2025,19,-3,413.7,Coors Field
+2025,19,-2,414,Coors Field
+2025,19,-1,414.5,Coors Field
+2025,19,0,415,Coors Field
+2025,19,1,415.7,Coors Field
+2025,19,2,416.6,Coors Field
+2025,19,3,417.5,Coors Field
+2025,19,4,418.6,Coors Field
+2025,19,5,419.8,Coors Field
+2025,19,6,421.2,Coors Field
+2025,19,7,422.5,Coors Field
+2025,19,8,420.9,Coors Field
+2025,19,9,416.6,Coors Field
+2025,19,10,412.3,Coors Field
+2025,19,11,408.3,Coors Field
+2025,19,12,404.5,Coors Field
+2025,19,13,400.8,Coors Field
+2025,19,14,397.4,Coors Field
+2025,19,15,394.1,Coors Field
+2025,19,16,391,Coors Field
+2025,19,17,388.1,Coors Field
+2025,19,18,385.3,Coors Field
+2025,19,19,382.7,Coors Field
+2025,19,20,380.2,Coors Field
+2025,19,21,377.9,Coors Field
+2025,19,22,375.7,Coors Field
+2025,19,23,373.6,Coors Field
+2025,19,24,371.7,Coors Field
+2025,19,25,369.9,Coors Field
+2025,19,26,368.3,Coors Field
+2025,19,27,366.8,Coors Field
+2025,19,28,365.4,Coors Field
+2025,19,29,364.1,Coors Field
+2025,19,30,362.9,Coors Field
+2025,19,31,361.9,Coors Field
+2025,19,32,360.9,Coors Field
+2025,19,33,360.1,Coors Field
+2025,19,34,359.4,Coors Field
+2025,19,35,358.8,Coors Field
+2025,19,36,358.4,Coors Field
+2025,19,37,358,Coors Field
+2025,19,38,357.7,Coors Field
+2025,19,39,357.6,Coors Field
+2025,19,40,357.5,Coors Field
+2025,19,41,357.6,Coors Field
+2025,19,42,357.8,Coors Field
+2025,19,43,358,Coors Field
+2025,19,44,354.9,Coors Field
+2025,19,45,349.9,Coors Field
+2025,22,-45,327,Dodger Stadium
+2025,22,-44,332.9,Dodger Stadium
+2025,22,-43,338.2,Dodger Stadium
+2025,22,-42,343.1,Dodger Stadium
+2025,22,-41,347.5,Dodger Stadium
+2025,22,-40,351.4,Dodger Stadium
+2025,22,-39,354.9,Dodger Stadium
+2025,22,-38,357.3,Dodger Stadium
+2025,22,-37,359.2,Dodger Stadium
+2025,22,-36,361,Dodger Stadium
+2025,22,-35,361.4,Dodger Stadium
+2025,22,-34,361.5,Dodger Stadium
+2025,22,-33,361.6,Dodger Stadium
+2025,22,-32,361.7,Dodger Stadium
+2025,22,-31,362,Dodger Stadium
+2025,22,-30,362.4,Dodger Stadium
+2025,22,-29,362.8,Dodger Stadium
+2025,22,-28,363.3,Dodger Stadium
+2025,22,-27,363.8,Dodger Stadium
+2025,22,-26,364.4,Dodger Stadium
+2025,22,-25,365.1,Dodger Stadium
+2025,22,-24,365.9,Dodger Stadium
+2025,22,-23,366.9,Dodger Stadium
+2025,22,-22,368,Dodger Stadium
+2025,22,-21,369,Dodger Stadium
+2025,22,-20,370.1,Dodger Stadium
+2025,22,-19,371.1,Dodger Stadium
+2025,22,-18,372.2,Dodger Stadium
+2025,22,-17,373.5,Dodger Stadium
+2025,22,-16,374.7,Dodger Stadium
+2025,22,-15,375.9,Dodger Stadium
+2025,22,-14,377.2,Dodger Stadium
+2025,22,-13,378.4,Dodger Stadium
+2025,22,-12,379.6,Dodger Stadium
+2025,22,-11,380.9,Dodger Stadium
+2025,22,-10,382.3,Dodger Stadium
+2025,22,-9,383.8,Dodger Stadium
+2025,22,-8,385.2,Dodger Stadium
+2025,22,-7,386.7,Dodger Stadium
+2025,22,-6,388.2,Dodger Stadium
+2025,22,-5,389.7,Dodger Stadium
+2025,22,-4,391.4,Dodger Stadium
+2025,22,-3,392.9,Dodger Stadium
+2025,22,-2,394,Dodger Stadium
+2025,22,-1,394.7,Dodger Stadium
+2025,22,0,395.4,Dodger Stadium
+2025,22,1,394.8,Dodger Stadium
+2025,22,2,394,Dodger Stadium
+2025,22,3,392.5,Dodger Stadium
+2025,22,4,391.1,Dodger Stadium
+2025,22,5,389.6,Dodger Stadium
+2025,22,6,388,Dodger Stadium
+2025,22,7,386.4,Dodger Stadium
+2025,22,8,385.1,Dodger Stadium
+2025,22,9,383.5,Dodger Stadium
+2025,22,10,382,Dodger Stadium
+2025,22,11,380.6,Dodger Stadium
+2025,22,12,379.5,Dodger Stadium
+2025,22,13,378.3,Dodger Stadium
+2025,22,14,376.9,Dodger Stadium
+2025,22,15,375.7,Dodger Stadium
+2025,22,16,374.5,Dodger Stadium
+2025,22,17,373.4,Dodger Stadium
+2025,22,18,372.2,Dodger Stadium
+2025,22,19,371.1,Dodger Stadium
+2025,22,20,370,Dodger Stadium
+2025,22,21,369,Dodger Stadium
+2025,22,22,367.9,Dodger Stadium
+2025,22,23,366.8,Dodger Stadium
+2025,22,24,365.9,Dodger Stadium
+2025,22,25,365.1,Dodger Stadium
+2025,22,26,364.4,Dodger Stadium
+2025,22,27,363.7,Dodger Stadium
+2025,22,28,363.2,Dodger Stadium
+2025,22,29,362.7,Dodger Stadium
+2025,22,30,362.4,Dodger Stadium
+2025,22,31,362.2,Dodger Stadium
+2025,22,32,362,Dodger Stadium
+2025,22,33,361.8,Dodger Stadium
+2025,22,34,361.6,Dodger Stadium
+2025,22,35,361.6,Dodger Stadium
+2025,22,36,361.3,Dodger Stadium
+2025,22,37,359.2,Dodger Stadium
+2025,22,38,357.2,Dodger Stadium
+2025,22,39,355,Dodger Stadium
+2025,22,40,351,Dodger Stadium
+2025,22,41,347.1,Dodger Stadium
+2025,22,42,342.7,Dodger Stadium
+2025,22,43,337.7,Dodger Stadium
+2025,22,44,332.6,Dodger Stadium
+2025,22,45,326.5,Dodger Stadium
+2025,31,-45,324.2,PNC Park
+2025,31,-44,329.1,PNC Park
+2025,31,-43,334.2,PNC Park
+2025,31,-42,339.7,PNC Park
+2025,31,-41,345.3,PNC Park
+2025,31,-40,351.3,PNC Park
+2025,31,-39,357.7,PNC Park
+2025,31,-38,364.3,PNC Park
+2025,31,-37,371.3,PNC Park
+2025,31,-36,371.8,PNC Park
+2025,31,-35,372.3,PNC Park
+2025,31,-34,372.9,PNC Park
+2025,31,-33,373.6,PNC Park
+2025,31,-32,374.5,PNC Park
+2025,31,-31,375.4,PNC Park
+2025,31,-30,376.5,PNC Park
+2025,31,-29,377.7,PNC Park
+2025,31,-28,379.1,PNC Park
+2025,31,-27,380.5,PNC Park
+2025,31,-26,382.1,PNC Park
+2025,31,-25,383.8,PNC Park
+2025,31,-24,385.7,PNC Park
+2025,31,-23,387.7,PNC Park
+2025,31,-22,389.8,PNC Park
+2025,31,-21,392.1,PNC Park
+2025,31,-20,394.5,PNC Park
+2025,31,-19,397.1,PNC Park
+2025,31,-18,399.8,PNC Park
+2025,31,-17,402.7,PNC Park
+2025,31,-16,405.7,PNC Park
+2025,31,-15,407.6,PNC Park
+2025,31,-14,394.9,PNC Park
+2025,31,-13,393.9,PNC Park
+2025,31,-12,393.5,PNC Park
+2025,31,-11,393.3,PNC Park
+2025,31,-10,393.1,PNC Park
+2025,31,-9,393.1,PNC Park
+2025,31,-8,393.2,PNC Park
+2025,31,-7,393.4,PNC Park
+2025,31,-6,393.8,PNC Park
+2025,31,-5,394.2,PNC Park
+2025,31,-4,394.8,PNC Park
+2025,31,-3,395.5,PNC Park
+2025,31,-2,396.3,PNC Park
+2025,31,-1,397.3,PNC Park
+2025,31,0,397.7,PNC Park
+2025,31,1,396.7,PNC Park
+2025,31,2,395.4,PNC Park
+2025,31,3,394.3,PNC Park
+2025,31,4,393.2,PNC Park
+2025,31,5,392.3,PNC Park
+2025,31,6,391.5,PNC Park
+2025,31,7,390.8,PNC Park
+2025,31,8,390.3,PNC Park
+2025,31,9,389.8,PNC Park
+2025,31,10,389.5,PNC Park
+2025,31,11,388.1,PNC Park
+2025,31,12,386.3,PNC Park
+2025,31,13,384.5,PNC Park
+2025,31,14,383,PNC Park
+2025,31,15,381.5,PNC Park
+2025,31,16,380.2,PNC Park
+2025,31,17,378.9,PNC Park
+2025,31,18,377.9,PNC Park
+2025,31,19,376.9,PNC Park
+2025,31,20,376,PNC Park
+2025,31,21,375.3,PNC Park
+2025,31,22,374.6,PNC Park
+2025,31,23,372.6,PNC Park
+2025,31,24,368.7,PNC Park
+2025,31,25,364.8,PNC Park
+2025,31,26,361.2,PNC Park
+2025,31,27,357.7,PNC Park
+2025,31,28,354.4,PNC Park
+2025,31,29,351.3,PNC Park
+2025,31,30,348.3,PNC Park
+2025,31,31,345.5,PNC Park
+2025,31,32,342.8,PNC Park
+2025,31,33,340.3,PNC Park
+2025,31,34,337.9,PNC Park
+2025,31,35,335.7,PNC Park
+2025,31,36,333.6,PNC Park
+2025,31,37,331.6,PNC Park
+2025,31,38,329.7,PNC Park
+2025,31,39,328,PNC Park
+2025,31,40,326.3,PNC Park
+2025,31,41,324.8,PNC Park
+2025,31,42,323.4,PNC Park
+2025,31,43,322.1,PNC Park
+2025,31,44,321,PNC Park
+2025,31,45,319.9,PNC Park
+2025,32,-45,341.5,American Family Field
+2025,32,-44,344.8,American Family Field
+2025,32,-43,348.2,American Family Field
+2025,32,-42,351.9,American Family Field
+2025,32,-41,355.7,American Family Field
+2025,32,-40,358,American Family Field
+2025,32,-39,358.8,American Family Field
+2025,32,-38,359.5,American Family Field
+2025,32,-37,360.4,American Family Field
+2025,32,-36,361.3,American Family Field
+2025,32,-35,362.4,American Family Field
+2025,32,-34,363.6,American Family Field
+2025,32,-33,364.9,American Family Field
+2025,32,-32,366.3,American Family Field
+2025,32,-31,367.8,American Family Field
+2025,32,-30,369.5,American Family Field
+2025,32,-29,370.5,American Family Field
+2025,32,-28,370,American Family Field
+2025,32,-27,369.6,American Family Field
+2025,32,-26,369.3,American Family Field
+2025,32,-25,369.1,American Family Field
+2025,32,-24,369,American Family Field
+2025,32,-23,369.1,American Family Field
+2025,32,-22,369.2,American Family Field
+2025,32,-21,369.5,American Family Field
+2025,32,-20,370.4,American Family Field
+2025,32,-19,371.3,American Family Field
+2025,32,-18,371.9,American Family Field
+2025,32,-17,372.7,American Family Field
+2025,32,-16,373.6,American Family Field
+2025,32,-15,374.6,American Family Field
+2025,32,-14,375.7,American Family Field
+2025,32,-13,377,American Family Field
+2025,32,-12,378.4,American Family Field
+2025,32,-11,382,American Family Field
+2025,32,-10,388.5,American Family Field
+2025,32,-9,395.2,American Family Field
+2025,32,-8,399.6,American Family Field
+2025,32,-7,399.9,American Family Field
+2025,32,-6,399.8,American Family Field
+2025,32,-5,399.8,American Family Field
+2025,32,-4,399.9,American Family Field
+2025,32,-3,399.9,American Family Field
+2025,32,-2,399.8,American Family Field
+2025,32,-1,399.8,American Family Field
+2025,32,0,399.8,American Family Field
+2025,32,1,399.9,American Family Field
+2025,32,2,399.9,American Family Field
+2025,32,3,399.9,American Family Field
+2025,32,4,399.9,American Family Field
+2025,32,5,399.9,American Family Field
+2025,32,6,399.9,American Family Field
+2025,32,7,399.8,American Family Field
+2025,32,8,399.7,American Family Field
+2025,32,9,395.1,American Family Field
+2025,32,10,388.3,American Family Field
+2025,32,11,385.2,American Family Field
+2025,32,12,383.6,American Family Field
+2025,32,13,382.2,American Family Field
+2025,32,14,380.9,American Family Field
+2025,32,15,379.8,American Family Field
+2025,32,16,378.8,American Family Field
+2025,32,17,377.9,American Family Field
+2025,32,18,377.1,American Family Field
+2025,32,19,376.4,American Family Field
+2025,32,20,375.9,American Family Field
+2025,32,21,375.4,American Family Field
+2025,32,22,375,American Family Field
+2025,32,23,372.9,American Family Field
+2025,32,24,370.9,American Family Field
+2025,32,25,369.1,American Family Field
+2025,32,26,367.3,American Family Field
+2025,32,27,365.7,American Family Field
+2025,32,28,363,American Family Field
+2025,32,29,355.3,American Family Field
+2025,32,30,351,American Family Field
+2025,32,31,349.8,American Family Field
+2025,32,32,348.8,American Family Field
+2025,32,33,347.8,American Family Field
+2025,32,34,347,American Family Field
+2025,32,35,346.3,American Family Field
+2025,32,36,345.7,American Family Field
+2025,32,37,345.2,American Family Field
+2025,32,38,344.8,American Family Field
+2025,32,39,344.5,American Family Field
+2025,32,40,344.4,American Family Field
+2025,32,41,344.3,American Family Field
+2025,32,42,344.3,American Family Field
+2025,32,43,344.5,American Family Field
+2025,32,44,344.7,American Family Field
+2025,32,45,344.8,American Family Field
+2025,680,-45,331.1,T-Mobile Park
+2025,680,-44,336.8,T-Mobile Park
+2025,680,-43,337.6,T-Mobile Park
+2025,680,-42,338.1,T-Mobile Park
+2025,680,-41,338.7,T-Mobile Park
+2025,680,-40,339.5,T-Mobile Park
+2025,680,-39,340.3,T-Mobile Park
+2025,680,-38,341.2,T-Mobile Park
+2025,680,-37,342.3,T-Mobile Park
+2025,680,-36,343.4,T-Mobile Park
+2025,680,-35,344.7,T-Mobile Park
+2025,680,-34,346.1,T-Mobile Park
+2025,680,-33,347.6,T-Mobile Park
+2025,680,-32,349.2,T-Mobile Park
+2025,680,-31,350.9,T-Mobile Park
+2025,680,-30,352.8,T-Mobile Park
+2025,680,-29,354.8,T-Mobile Park
+2025,680,-28,357,T-Mobile Park
+2025,680,-27,359.2,T-Mobile Park
+2025,680,-26,361.6,T-Mobile Park
+2025,680,-25,364.2,T-Mobile Park
+2025,680,-24,366.9,T-Mobile Park
+2025,680,-23,369.7,T-Mobile Park
+2025,680,-22,372.7,T-Mobile Park
+2025,680,-21,374.5,T-Mobile Park
+2025,680,-20,375.9,T-Mobile Park
+2025,680,-19,377.5,T-Mobile Park
+2025,680,-18,379.2,T-Mobile Park
+2025,680,-17,381,T-Mobile Park
+2025,680,-16,382.9,T-Mobile Park
+2025,680,-15,385,T-Mobile Park
+2025,680,-14,386.4,T-Mobile Park
+2025,680,-13,387.3,T-Mobile Park
+2025,680,-12,388.4,T-Mobile Park
+2025,680,-11,389.6,T-Mobile Park
+2025,680,-10,390.9,T-Mobile Park
+2025,680,-9,392.3,T-Mobile Park
+2025,680,-8,393.9,T-Mobile Park
+2025,680,-7,395.6,T-Mobile Park
+2025,680,-6,397.5,T-Mobile Park
+2025,680,-5,399.5,T-Mobile Park
+2025,680,-4,401.6,T-Mobile Park
+2025,680,-3,403.8,T-Mobile Park
+2025,680,-2,405.7,T-Mobile Park
+2025,680,-1,403.4,T-Mobile Park
+2025,680,0,401.1,T-Mobile Park
+2025,680,1,398.9,T-Mobile Park
+2025,680,2,396.9,T-Mobile Park
+2025,680,3,395,T-Mobile Park
+2025,680,4,393.3,T-Mobile Park
+2025,680,5,391.7,T-Mobile Park
+2025,680,6,390.3,T-Mobile Park
+2025,680,7,388.9,T-Mobile Park
+2025,680,8,387.7,T-Mobile Park
+2025,680,9,386.6,T-Mobile Park
+2025,680,10,385.7,T-Mobile Park
+2025,680,11,384.8,T-Mobile Park
+2025,680,12,384.1,T-Mobile Park
+2025,680,13,383.5,T-Mobile Park
+2025,680,14,383,T-Mobile Park
+2025,680,15,382.7,T-Mobile Park
+2025,680,16,382.4,T-Mobile Park
+2025,680,17,382.3,T-Mobile Park
+2025,680,18,382.3,T-Mobile Park
+2025,680,19,382.4,T-Mobile Park
+2025,680,20,379.9,T-Mobile Park
+2025,680,21,376.1,T-Mobile Park
+2025,680,22,372.4,T-Mobile Park
+2025,680,23,368.8,T-Mobile Park
+2025,680,24,365.5,T-Mobile Park
+2025,680,25,362.3,T-Mobile Park
+2025,680,26,359.3,T-Mobile Park
+2025,680,27,356.5,T-Mobile Park
+2025,680,28,353.8,T-Mobile Park
+2025,680,29,351.2,T-Mobile Park
+2025,680,30,348.8,T-Mobile Park
+2025,680,31,346.5,T-Mobile Park
+2025,680,32,344.4,T-Mobile Park
+2025,680,33,342.4,T-Mobile Park
+2025,680,34,340.5,T-Mobile Park
+2025,680,35,338.7,T-Mobile Park
+2025,680,36,337.1,T-Mobile Park
+2025,680,37,335.5,T-Mobile Park
+2025,680,38,334.1,T-Mobile Park
+2025,680,39,332.8,T-Mobile Park
+2025,680,40,331.6,T-Mobile Park
+2025,680,41,330.6,T-Mobile Park
+2025,680,42,329.6,T-Mobile Park
+2025,680,43,328.7,T-Mobile Park
+2025,680,44,328,T-Mobile Park
+2025,680,45,327.3,T-Mobile Park
+2025,2392,-45,314.5,Daikin Park
+2025,2392,-44,314.6,Daikin Park
+2025,2392,-43,314.7,Daikin Park
+2025,2392,-42,314.9,Daikin Park
+2025,2392,-41,315.2,Daikin Park
+2025,2392,-40,315.6,Daikin Park
+2025,2392,-39,316.1,Daikin Park
+2025,2392,-38,316.7,Daikin Park
+2025,2392,-37,317.3,Daikin Park
+2025,2392,-36,318.1,Daikin Park
+2025,2392,-35,319,Daikin Park
+2025,2392,-34,320,Daikin Park
+2025,2392,-33,321.1,Daikin Park
+2025,2392,-32,322.3,Daikin Park
+2025,2392,-31,323.6,Daikin Park
+2025,2392,-30,324.9,Daikin Park
+2025,2392,-29,325.9,Daikin Park
+2025,2392,-28,326.9,Daikin Park
+2025,2392,-27,328.1,Daikin Park
+2025,2392,-26,329.3,Daikin Park
+2025,2392,-25,330.7,Daikin Park
+2025,2392,-24,332.4,Daikin Park
+2025,2392,-23,354.7,Daikin Park
+2025,2392,-22,359.9,Daikin Park
+2025,2392,-21,363.1,Daikin Park
+2025,2392,-20,366.5,Daikin Park
+2025,2392,-19,367.6,Daikin Park
+2025,2392,-18,367.8,Daikin Park
+2025,2392,-17,371.6,Daikin Park
+2025,2392,-16,375.7,Daikin Park
+2025,2392,-15,376.3,Daikin Park
+2025,2392,-14,378.4,Daikin Park
+2025,2392,-13,383,Daikin Park
+2025,2392,-12,387.9,Daikin Park
+2025,2392,-11,388,Daikin Park
+2025,2392,-10,391.7,Daikin Park
+2025,2392,-9,395.5,Daikin Park
+2025,2392,-8,399.6,Daikin Park
+2025,2392,-7,403.9,Daikin Park
+2025,2392,-6,408.2,Daikin Park
+2025,2392,-5,410.9,Daikin Park
+2025,2392,-4,410.6,Daikin Park
+2025,2392,-3,410.1,Daikin Park
+2025,2392,-2,409.8,Daikin Park
+2025,2392,-1,409.6,Daikin Park
+2025,2392,0,409.5,Daikin Park
+2025,2392,1,409.5,Daikin Park
+2025,2392,2,409.7,Daikin Park
+2025,2392,3,410,Daikin Park
+2025,2392,4,410.4,Daikin Park
+2025,2392,5,410.9,Daikin Park
+2025,2392,6,411.6,Daikin Park
+2025,2392,7,412.4,Daikin Park
+2025,2392,8,413.3,Daikin Park
+2025,2392,9,414.3,Daikin Park
+2025,2392,10,412.5,Daikin Park
+2025,2392,11,410.1,Daikin Park
+2025,2392,12,404.9,Daikin Park
+2025,2392,13,401.9,Daikin Park
+2025,2392,14,396.5,Daikin Park
+2025,2392,15,391.4,Daikin Park
+2025,2392,16,386.6,Daikin Park
+2025,2392,17,381.9,Daikin Park
+2025,2392,18,377.6,Daikin Park
+2025,2392,19,373.4,Daikin Park
+2025,2392,20,369.5,Daikin Park
+2025,2392,21,369.5,Daikin Park
+2025,2392,22,370.5,Daikin Park
+2025,2392,23,367.3,Daikin Park
+2025,2392,24,364,Daikin Park
+2025,2392,25,360.8,Daikin Park
+2025,2392,26,357.8,Daikin Park
+2025,2392,27,354.9,Daikin Park
+2025,2392,28,352.2,Daikin Park
+2025,2392,29,349.7,Daikin Park
+2025,2392,30,347.3,Daikin Park
+2025,2392,31,345,Daikin Park
+2025,2392,32,342.8,Daikin Park
+2025,2392,33,340.8,Daikin Park
+2025,2392,34,338.9,Daikin Park
+2025,2392,35,337.2,Daikin Park
+2025,2392,36,335.5,Daikin Park
+2025,2392,37,334,Daikin Park
+2025,2392,38,332.6,Daikin Park
+2025,2392,39,331.3,Daikin Park
+2025,2392,40,330.1,Daikin Park
+2025,2392,41,329,Daikin Park
+2025,2392,42,328,Daikin Park
+2025,2392,43,327.2,Daikin Park
+2025,2392,44,326.4,Daikin Park
+2025,2392,45,325.7,Daikin Park
+2025,2394,-45,341.6,Comerica Park
+2025,2394,-44,341.9,Comerica Park
+2025,2394,-43,342,Comerica Park
+2025,2394,-42,342.2,Comerica Park
+2025,2394,-41,342.6,Comerica Park
+2025,2394,-40,343,Comerica Park
+2025,2394,-39,343.6,Comerica Park
+2025,2394,-38,344.2,Comerica Park
+2025,2394,-37,345,Comerica Park
+2025,2394,-36,345.9,Comerica Park
+2025,2394,-35,346.9,Comerica Park
+2025,2394,-34,347.9,Comerica Park
+2025,2394,-33,349.2,Comerica Park
+2025,2394,-32,350.5,Comerica Park
+2025,2394,-31,351.9,Comerica Park
+2025,2394,-30,353.5,Comerica Park
+2025,2394,-29,355.2,Comerica Park
+2025,2394,-28,357,Comerica Park
+2025,2394,-27,358.9,Comerica Park
+2025,2394,-26,361,Comerica Park
+2025,2394,-25,363.2,Comerica Park
+2025,2394,-24,365.6,Comerica Park
+2025,2394,-23,368,Comerica Park
+2025,2394,-22,370.7,Comerica Park
+2025,2394,-21,373.5,Comerica Park
+2025,2394,-20,376.4,Comerica Park
+2025,2394,-19,379.5,Comerica Park
+2025,2394,-18,382.8,Comerica Park
+2025,2394,-17,386.3,Comerica Park
+2025,2394,-16,389.9,Comerica Park
+2025,2394,-15,393.7,Comerica Park
+2025,2394,-14,397.8,Comerica Park
+2025,2394,-13,402,Comerica Park
+2025,2394,-12,406.5,Comerica Park
+2025,2394,-11,411.1,Comerica Park
+2025,2394,-10,416.1,Comerica Park
+2025,2394,-9,421.2,Comerica Park
+2025,2394,-8,424.8,Comerica Park
+2025,2394,-7,424.1,Comerica Park
+2025,2394,-6,423.4,Comerica Park
+2025,2394,-5,422.9,Comerica Park
+2025,2394,-4,422.4,Comerica Park
+2025,2394,-3,422.1,Comerica Park
+2025,2394,-2,421.9,Comerica Park
+2025,2394,-1,421.9,Comerica Park
+2025,2394,0,421.9,Comerica Park
+2025,2394,1,422.1,Comerica Park
+2025,2394,2,422.5,Comerica Park
+2025,2394,3,422.9,Comerica Park
+2025,2394,4,423.5,Comerica Park
+2025,2394,5,424.3,Comerica Park
+2025,2394,6,425.1,Comerica Park
+2025,2394,7,426.1,Comerica Park
+2025,2394,8,427.2,Comerica Park
+2025,2394,9,428.4,Comerica Park
+2025,2394,10,427.5,Comerica Park
+2025,2394,11,422.6,Comerica Park
+2025,2394,12,417.7,Comerica Park
+2025,2394,13,413.2,Comerica Park
+2025,2394,14,408.8,Comerica Park
+2025,2394,15,404.7,Comerica Park
+2025,2394,16,400.7,Comerica Park
+2025,2394,17,397,Comerica Park
+2025,2394,18,393.4,Comerica Park
+2025,2394,19,390,Comerica Park
+2025,2394,20,386.8,Comerica Park
+2025,2394,21,379.5,Comerica Park
+2025,2394,22,369.8,Comerica Park
+2025,2394,23,363.5,Comerica Park
+2025,2394,24,360.8,Comerica Park
+2025,2394,25,358.5,Comerica Park
+2025,2394,26,356.3,Comerica Park
+2025,2394,27,354.2,Comerica Park
+2025,2394,28,352.3,Comerica Park
+2025,2394,29,350.5,Comerica Park
+2025,2394,30,348.8,Comerica Park
+2025,2394,31,347.2,Comerica Park
+2025,2394,32,345.7,Comerica Park
+2025,2394,33,344.4,Comerica Park
+2025,2394,34,343.2,Comerica Park
+2025,2394,35,342.1,Comerica Park
+2025,2394,36,341.1,Comerica Park
+2025,2394,37,340.2,Comerica Park
+2025,2394,38,339.4,Comerica Park
+2025,2394,39,339.1,Comerica Park
+2025,2394,40,338.4,Comerica Park
+2025,2394,41,337.9,Comerica Park
+2025,2394,42,337.4,Comerica Park
+2025,2394,43,336.8,Comerica Park
+2025,2394,44,333.9,Comerica Park
+2025,2394,45,328.3,Comerica Park
+2025,2395,-45,339.8,Oracle Park
+2025,2395,-44,342.1,Oracle Park
+2025,2395,-43,344.6,Oracle Park
+2025,2395,-42,347.3,Oracle Park
+2025,2395,-41,348.9,Oracle Park
+2025,2395,-40,348.9,Oracle Park
+2025,2395,-39,349,Oracle Park
+2025,2395,-38,349.2,Oracle Park
+2025,2395,-37,349.5,Oracle Park
+2025,2395,-36,349.8,Oracle Park
+2025,2395,-35,350.3,Oracle Park
+2025,2395,-34,350.9,Oracle Park
+2025,2395,-33,351.6,Oracle Park
+2025,2395,-32,352.5,Oracle Park
+2025,2395,-31,353.4,Oracle Park
+2025,2395,-30,354.4,Oracle Park
+2025,2395,-29,355.6,Oracle Park
+2025,2395,-28,356.9,Oracle Park
+2025,2395,-27,358.3,Oracle Park
+2025,2395,-26,359.8,Oracle Park
+2025,2395,-25,361.4,Oracle Park
+2025,2395,-24,363.2,Oracle Park
+2025,2395,-23,365.1,Oracle Park
+2025,2395,-22,367.1,Oracle Park
+2025,2395,-21,369.3,Oracle Park
+2025,2395,-20,371.6,Oracle Park
+2025,2395,-19,374,Oracle Park
+2025,2395,-18,376.6,Oracle Park
+2025,2395,-17,379.4,Oracle Park
+2025,2395,-16,382.3,Oracle Park
+2025,2395,-15,385.3,Oracle Park
+2025,2395,-14,388.6,Oracle Park
+2025,2395,-13,392,Oracle Park
+2025,2395,-12,395.5,Oracle Park
+2025,2395,-11,398.2,Oracle Park
+2025,2395,-10,397,Oracle Park
+2025,2395,-9,395.8,Oracle Park
+2025,2395,-8,394.8,Oracle Park
+2025,2395,-7,393.9,Oracle Park
+2025,2395,-6,393.1,Oracle Park
+2025,2395,-5,392.5,Oracle Park
+2025,2395,-4,391.9,Oracle Park
+2025,2395,-3,391.5,Oracle Park
+2025,2395,-2,391.2,Oracle Park
+2025,2395,-1,391.1,Oracle Park
+2025,2395,0,391,Oracle Park
+2025,2395,1,391.1,Oracle Park
+2025,2395,2,391.2,Oracle Park
+2025,2395,3,391.6,Oracle Park
+2025,2395,4,392,Oracle Park
+2025,2395,5,392.5,Oracle Park
+2025,2395,6,393.2,Oracle Park
+2025,2395,7,394,Oracle Park
+2025,2395,8,394.9,Oracle Park
+2025,2395,9,395.9,Oracle Park
+2025,2395,10,397.1,Oracle Park
+2025,2395,11,398.4,Oracle Park
+2025,2395,12,399.8,Oracle Park
+2025,2395,13,401.4,Oracle Park
+2025,2395,14,403,Oracle Park
+2025,2395,15,404.9,Oracle Park
+2025,2395,16,406.8,Oracle Park
+2025,2395,17,409,Oracle Park
+2025,2395,18,411.2,Oracle Park
+2025,2395,19,413.5,Oracle Park
+2025,2395,20,409.5,Oracle Park
+2025,2395,21,401.7,Oracle Park
+2025,2395,22,394,Oracle Park
+2025,2395,23,386.8,Oracle Park
+2025,2395,24,379.9,Oracle Park
+2025,2395,25,373.3,Oracle Park
+2025,2395,26,367.4,Oracle Park
+2025,2395,27,363,Oracle Park
+2025,2395,28,363.2,Oracle Park
+2025,2395,29,363.5,Oracle Park
+2025,2395,30,358.2,Oracle Park
+2025,2395,31,353.2,Oracle Park
+2025,2395,32,348.4,Oracle Park
+2025,2395,33,343.9,Oracle Park
+2025,2395,34,339.6,Oracle Park
+2025,2395,35,335.5,Oracle Park
+2025,2395,36,331.6,Oracle Park
+2025,2395,37,327.8,Oracle Park
+2025,2395,38,324.3,Oracle Park
+2025,2395,39,320.9,Oracle Park
+2025,2395,40,317.7,Oracle Park
+2025,2395,41,314.7,Oracle Park
+2025,2395,42,311.8,Oracle Park
+2025,2395,43,309,Oracle Park
+2025,2395,44,306.4,Oracle Park
+2025,2395,45,304,Oracle Park
+2025,2602,-45,328.3,Great American Ball Park
+2025,2602,-44,332.1,Great American Ball Park
+2025,2602,-43,336.1,Great American Ball Park
+2025,2602,-42,338,Great American Ball Park
+2025,2602,-41,338.3,Great American Ball Park
+2025,2602,-40,338.7,Great American Ball Park
+2025,2602,-39,339.2,Great American Ball Park
+2025,2602,-38,339.8,Great American Ball Park
+2025,2602,-37,340.5,Great American Ball Park
+2025,2602,-36,341.3,Great American Ball Park
+2025,2602,-35,342.2,Great American Ball Park
+2025,2602,-34,343.2,Great American Ball Park
+2025,2602,-33,344.4,Great American Ball Park
+2025,2602,-32,345.6,Great American Ball Park
+2025,2602,-31,347,Great American Ball Park
+2025,2602,-30,348.5,Great American Ball Park
+2025,2602,-29,350.1,Great American Ball Park
+2025,2602,-28,351.8,Great American Ball Park
+2025,2602,-27,353.7,Great American Ball Park
+2025,2602,-26,355.7,Great American Ball Park
+2025,2602,-25,357.8,Great American Ball Park
+2025,2602,-24,360,Great American Ball Park
+2025,2602,-23,362.4,Great American Ball Park
+2025,2602,-22,365,Great American Ball Park
+2025,2602,-21,367.6,Great American Ball Park
+2025,2602,-20,370.5,Great American Ball Park
+2025,2602,-19,373.5,Great American Ball Park
+2025,2602,-18,376.6,Great American Ball Park
+2025,2602,-17,380,Great American Ball Park
+2025,2602,-16,383.5,Great American Ball Park
+2025,2602,-15,386.9,Great American Ball Park
+2025,2602,-14,387.4,Great American Ball Park
+2025,2602,-13,387.8,Great American Ball Park
+2025,2602,-12,388.3,Great American Ball Park
+2025,2602,-11,388.9,Great American Ball Park
+2025,2602,-10,389.7,Great American Ball Park
+2025,2602,-9,390.5,Great American Ball Park
+2025,2602,-8,391.5,Great American Ball Park
+2025,2602,-7,392.6,Great American Ball Park
+2025,2602,-6,393.9,Great American Ball Park
+2025,2602,-5,395.2,Great American Ball Park
+2025,2602,-4,396.7,Great American Ball Park
+2025,2602,-3,398.4,Great American Ball Park
+2025,2602,-2,400.1,Great American Ball Park
+2025,2602,-1,402,Great American Ball Park
+2025,2602,0,403.9,Great American Ball Park
+2025,2602,1,402.4,Great American Ball Park
+2025,2602,2,400.1,Great American Ball Park
+2025,2602,3,397.8,Great American Ball Park
+2025,2602,4,395.7,Great American Ball Park
+2025,2602,5,393.7,Great American Ball Park
+2025,2602,6,391.6,Great American Ball Park
+2025,2602,7,389.7,Great American Ball Park
+2025,2602,8,387.8,Great American Ball Park
+2025,2602,9,385.7,Great American Ball Park
+2025,2602,10,383.8,Great American Ball Park
+2025,2602,11,382.1,Great American Ball Park
+2025,2602,12,380.1,Great American Ball Park
+2025,2602,13,378.2,Great American Ball Park
+2025,2602,14,376.4,Great American Ball Park
+2025,2602,15,374.5,Great American Ball Park
+2025,2602,16,372.4,Great American Ball Park
+2025,2602,17,370.5,Great American Ball Park
+2025,2602,18,368.7,Great American Ball Park
+2025,2602,19,366.9,Great American Ball Park
+2025,2602,20,365.1,Great American Ball Park
+2025,2602,21,363.2,Great American Ball Park
+2025,2602,22,361.5,Great American Ball Park
+2025,2602,23,359.7,Great American Ball Park
+2025,2602,24,357.9,Great American Ball Park
+2025,2602,25,356.2,Great American Ball Park
+2025,2602,26,354.5,Great American Ball Park
+2025,2602,27,352.7,Great American Ball Park
+2025,2602,28,350.8,Great American Ball Park
+2025,2602,29,349.1,Great American Ball Park
+2025,2602,30,347.5,Great American Ball Park
+2025,2602,31,346,Great American Ball Park
+2025,2602,32,344.3,Great American Ball Park
+2025,2602,33,342.5,Great American Ball Park
+2025,2602,34,340.8,Great American Ball Park
+2025,2602,35,339.2,Great American Ball Park
+2025,2602,36,337.7,Great American Ball Park
+2025,2602,37,336.4,Great American Ball Park
+2025,2602,38,335.2,Great American Ball Park
+2025,2602,39,334,Great American Ball Park
+2025,2602,40,333,Great American Ball Park
+2025,2602,41,332,Great American Ball Park
+2025,2602,42,330.8,Great American Ball Park
+2025,2602,43,328.5,Great American Ball Park
+2025,2602,44,326.5,Great American Ball Park
+2025,2602,45,324.9,Great American Ball Park
+2025,2680,-45,334.6,Petco Park
+2025,2680,-44,333.3,Petco Park
+2025,2680,-43,334.3,Petco Park
+2025,2680,-42,335.9,Petco Park
+2025,2680,-41,337.6,Petco Park
+2025,2680,-40,339.4,Petco Park
+2025,2680,-39,340.6,Petco Park
+2025,2680,-38,341.3,Petco Park
+2025,2680,-37,342,Petco Park
+2025,2680,-36,342.9,Petco Park
+2025,2680,-35,343.9,Petco Park
+2025,2680,-34,345,Petco Park
+2025,2680,-33,346.2,Petco Park
+2025,2680,-32,347.6,Petco Park
+2025,2680,-31,349,Petco Park
+2025,2680,-30,350.6,Petco Park
+2025,2680,-29,352.3,Petco Park
+2025,2680,-28,354.1,Petco Park
+2025,2680,-27,356,Petco Park
+2025,2680,-26,358.1,Petco Park
+2025,2680,-25,360.3,Petco Park
+2025,2680,-24,362.7,Petco Park
+2025,2680,-23,365.2,Petco Park
+2025,2680,-22,367.8,Petco Park
+2025,2680,-21,370.6,Petco Park
+2025,2680,-20,373.5,Petco Park
+2025,2680,-19,376.7,Petco Park
+2025,2680,-18,379.9,Petco Park
+2025,2680,-17,383.4,Petco Park
+2025,2680,-16,386.5,Petco Park
+2025,2680,-15,388.3,Petco Park
+2025,2680,-14,390.2,Petco Park
+2025,2680,-13,392.2,Petco Park
+2025,2680,-12,394.3,Petco Park
+2025,2680,-11,396.5,Petco Park
+2025,2680,-10,395.5,Petco Park
+2025,2680,-9,394.4,Petco Park
+2025,2680,-8,393.4,Petco Park
+2025,2680,-7,392.5,Petco Park
+2025,2680,-6,391.7,Petco Park
+2025,2680,-5,391.1,Petco Park
+2025,2680,-4,390.6,Petco Park
+2025,2680,-3,393.8,Petco Park
+2025,2680,-2,395.8,Petco Park
+2025,2680,-1,395.6,Petco Park
+2025,2680,0,395.6,Petco Park
+2025,2680,1,395.6,Petco Park
+2025,2680,2,395.8,Petco Park
+2025,2680,3,396.1,Petco Park
+2025,2680,4,396.6,Petco Park
+2025,2680,5,397.1,Petco Park
+2025,2680,6,397.8,Petco Park
+2025,2680,7,398.6,Petco Park
+2025,2680,8,398.7,Petco Park
+2025,2680,9,398.4,Petco Park
+2025,2680,10,398.3,Petco Park
+2025,2680,11,398.2,Petco Park
+2025,2680,12,398.3,Petco Park
+2025,2680,13,398.2,Petco Park
+2025,2680,14,396.6,Petco Park
+2025,2680,15,394.5,Petco Park
+2025,2680,16,392.6,Petco Park
+2025,2680,17,390.7,Petco Park
+2025,2680,18,388.4,Petco Park
+2025,2680,19,385.1,Petco Park
+2025,2680,20,381.9,Petco Park
+2025,2680,21,378.9,Petco Park
+2025,2680,22,376,Petco Park
+2025,2680,23,373.3,Petco Park
+2025,2680,24,370.8,Petco Park
+2025,2680,25,368.4,Petco Park
+2025,2680,26,366.1,Petco Park
+2025,2680,27,364,Petco Park
+2025,2680,28,362,Petco Park
+2025,2680,29,360.1,Petco Park
+2025,2680,30,358.4,Petco Park
+2025,2680,31,356.8,Petco Park
+2025,2680,32,355.3,Petco Park
+2025,2680,33,353.9,Petco Park
+2025,2680,34,352.7,Petco Park
+2025,2680,35,351.6,Petco Park
+2025,2680,36,350.5,Petco Park
+2025,2680,37,349.6,Petco Park
+2025,2680,38,348,Petco Park
+2025,2680,39,343.6,Petco Park
+2025,2680,40,336.4,Petco Park
+2025,2680,41,329.6,Petco Park
+2025,2680,42,323.2,Petco Park
+2025,2680,43,322.5,Petco Park
+2025,2680,44,322.3,Petco Park
+2025,2680,45,321.7,Petco Park
+2025,2681,-45,328,Citizens Bank Park
+2025,2681,-44,333.6,Citizens Bank Park
+2025,2681,-43,334.2,Citizens Bank Park
+2025,2681,-42,334.5,Citizens Bank Park
+2025,2681,-41,334.9,Citizens Bank Park
+2025,2681,-40,335.3,Citizens Bank Park
+2025,2681,-39,335.9,Citizens Bank Park
+2025,2681,-38,336.5,Citizens Bank Park
+2025,2681,-37,337.3,Citizens Bank Park
+2025,2681,-36,338.2,Citizens Bank Park
+2025,2681,-35,339.2,Citizens Bank Park
+2025,2681,-34,340.3,Citizens Bank Park
+2025,2681,-33,341.5,Citizens Bank Park
+2025,2681,-32,342.8,Citizens Bank Park
+2025,2681,-31,344.3,Citizens Bank Park
+2025,2681,-30,345.8,Citizens Bank Park
+2025,2681,-29,347.5,Citizens Bank Park
+2025,2681,-28,349.3,Citizens Bank Park
+2025,2681,-27,351.2,Citizens Bank Park
+2025,2681,-26,353.3,Citizens Bank Park
+2025,2681,-25,355.5,Citizens Bank Park
+2025,2681,-24,357.8,Citizens Bank Park
+2025,2681,-23,360.3,Citizens Bank Park
+2025,2681,-22,362.9,Citizens Bank Park
+2025,2681,-21,365.7,Citizens Bank Park
+2025,2681,-20,368.6,Citizens Bank Park
+2025,2681,-19,371.7,Citizens Bank Park
+2025,2681,-18,374.9,Citizens Bank Park
+2025,2681,-17,378.3,Citizens Bank Park
+2025,2681,-16,381.9,Citizens Bank Park
+2025,2681,-15,385.5,Citizens Bank Park
+2025,2681,-14,385.7,Citizens Bank Park
+2025,2681,-13,384.2,Citizens Bank Park
+2025,2681,-12,382.8,Citizens Bank Park
+2025,2681,-11,381.5,Citizens Bank Park
+2025,2681,-10,386,Citizens Bank Park
+2025,2681,-9,390.9,Citizens Bank Park
+2025,2681,-8,395.9,Citizens Bank Park
+2025,2681,-7,401.3,Citizens Bank Park
+2025,2681,-6,406.8,Citizens Bank Park
+2025,2681,-5,407.6,Citizens Bank Park
+2025,2681,-4,406.2,Citizens Bank Park
+2025,2681,-3,404.8,Citizens Bank Park
+2025,2681,-2,403.5,Citizens Bank Park
+2025,2681,-1,402.3,Citizens Bank Park
+2025,2681,0,401.3,Citizens Bank Park
+2025,2681,1,400.4,Citizens Bank Park
+2025,2681,2,399.6,Citizens Bank Park
+2025,2681,3,399,Citizens Bank Park
+2025,2681,4,398.4,Citizens Bank Park
+2025,2681,5,398,Citizens Bank Park
+2025,2681,6,397.8,Citizens Bank Park
+2025,2681,7,397.6,Citizens Bank Park
+2025,2681,8,397.6,Citizens Bank Park
+2025,2681,9,397.6,Citizens Bank Park
+2025,2681,10,397.8,Citizens Bank Park
+2025,2681,11,397.1,Citizens Bank Park
+2025,2681,12,392.7,Citizens Bank Park
+2025,2681,13,388.3,Citizens Bank Park
+2025,2681,14,384.2,Citizens Bank Park
+2025,2681,15,380.3,Citizens Bank Park
+2025,2681,16,376.5,Citizens Bank Park
+2025,2681,17,373,Citizens Bank Park
+2025,2681,18,369.6,Citizens Bank Park
+2025,2681,19,366.4,Citizens Bank Park
+2025,2681,20,363.4,Citizens Bank Park
+2025,2681,21,360.5,Citizens Bank Park
+2025,2681,22,357.8,Citizens Bank Park
+2025,2681,23,355.2,Citizens Bank Park
+2025,2681,24,352.8,Citizens Bank Park
+2025,2681,25,350.5,Citizens Bank Park
+2025,2681,26,348.3,Citizens Bank Park
+2025,2681,27,346.3,Citizens Bank Park
+2025,2681,28,344.4,Citizens Bank Park
+2025,2681,29,342.6,Citizens Bank Park
+2025,2681,30,341,Citizens Bank Park
+2025,2681,31,339.4,Citizens Bank Park
+2025,2681,32,338,Citizens Bank Park
+2025,2681,33,336.7,Citizens Bank Park
+2025,2681,34,335.5,Citizens Bank Park
+2025,2681,35,334.5,Citizens Bank Park
+2025,2681,36,333.5,Citizens Bank Park
+2025,2681,37,332.6,Citizens Bank Park
+2025,2681,38,331.9,Citizens Bank Park
+2025,2681,39,331.2,Citizens Bank Park
+2025,2681,40,330.6,Citizens Bank Park
+2025,2681,41,330.2,Citizens Bank Park
+2025,2681,42,329.8,Citizens Bank Park
+2025,2681,43,329.6,Citizens Bank Park
+2025,2681,44,329.4,Citizens Bank Park
+2025,2681,45,329.4,Citizens Bank Park
+2025,2889,-45,335.5,Busch Stadium
+2025,2889,-44,345.1,Busch Stadium
+2025,2889,-43,351.3,Busch Stadium
+2025,2889,-42,351.7,Busch Stadium
+2025,2889,-41,352.1,Busch Stadium
+2025,2889,-40,352.5,Busch Stadium
+2025,2889,-39,353.1,Busch Stadium
+2025,2889,-38,353.9,Busch Stadium
+2025,2889,-37,354.7,Busch Stadium
+2025,2889,-36,355.6,Busch Stadium
+2025,2889,-35,356.6,Busch Stadium
+2025,2889,-34,357.8,Busch Stadium
+2025,2889,-33,359.1,Busch Stadium
+2025,2889,-32,360.5,Busch Stadium
+2025,2889,-31,362,Busch Stadium
+2025,2889,-30,363.6,Busch Stadium
+2025,2889,-29,365.4,Busch Stadium
+2025,2889,-28,367.3,Busch Stadium
+2025,2889,-27,369.3,Busch Stadium
+2025,2889,-26,371.5,Busch Stadium
+2025,2889,-25,373.8,Busch Stadium
+2025,2889,-24,376.3,Busch Stadium
+2025,2889,-23,378.9,Busch Stadium
+2025,2889,-22,381.6,Busch Stadium
+2025,2889,-21,384.5,Busch Stadium
+2025,2889,-20,387.6,Busch Stadium
+2025,2889,-19,390.4,Busch Stadium
+2025,2889,-18,390.7,Busch Stadium
+2025,2889,-17,390.8,Busch Stadium
+2025,2889,-16,391,Busch Stadium
+2025,2889,-15,391.3,Busch Stadium
+2025,2889,-14,391.7,Busch Stadium
+2025,2889,-13,392.2,Busch Stadium
+2025,2889,-12,392.9,Busch Stadium
+2025,2889,-11,393.6,Busch Stadium
+2025,2889,-10,394.5,Busch Stadium
+2025,2889,-9,395.5,Busch Stadium
+2025,2889,-8,396.7,Busch Stadium
+2025,2889,-7,398,Busch Stadium
+2025,2889,-6,399.4,Busch Stadium
+2025,2889,-5,400.8,Busch Stadium
+2025,2889,-4,400.6,Busch Stadium
+2025,2889,-3,400.2,Busch Stadium
+2025,2889,-2,399.9,Busch Stadium
+2025,2889,-1,399.7,Busch Stadium
+2025,2889,0,399.6,Busch Stadium
+2025,2889,1,399.6,Busch Stadium
+2025,2889,2,399.9,Busch Stadium
+2025,2889,3,400.2,Busch Stadium
+2025,2889,4,400.6,Busch Stadium
+2025,2889,5,401,Busch Stadium
+2025,2889,6,399.5,Busch Stadium
+2025,2889,7,398.1,Busch Stadium
+2025,2889,8,396.8,Busch Stadium
+2025,2889,9,395.7,Busch Stadium
+2025,2889,10,394.7,Busch Stadium
+2025,2889,11,393.8,Busch Stadium
+2025,2889,12,393,Busch Stadium
+2025,2889,13,392.3,Busch Stadium
+2025,2889,14,391.8,Busch Stadium
+2025,2889,15,391.4,Busch Stadium
+2025,2889,16,391.1,Busch Stadium
+2025,2889,17,390.9,Busch Stadium
+2025,2889,18,390.8,Busch Stadium
+2025,2889,19,390.5,Busch Stadium
+2025,2889,20,388,Busch Stadium
+2025,2889,21,384.9,Busch Stadium
+2025,2889,22,382,Busch Stadium
+2025,2889,23,379.3,Busch Stadium
+2025,2889,24,376.7,Busch Stadium
+2025,2889,25,374.2,Busch Stadium
+2025,2889,26,371.9,Busch Stadium
+2025,2889,27,369.7,Busch Stadium
+2025,2889,28,367.7,Busch Stadium
+2025,2889,29,365.8,Busch Stadium
+2025,2889,30,364,Busch Stadium
+2025,2889,31,362.4,Busch Stadium
+2025,2889,32,360.9,Busch Stadium
+2025,2889,33,359.5,Busch Stadium
+2025,2889,34,358.2,Busch Stadium
+2025,2889,35,357,Busch Stadium
+2025,2889,36,356,Busch Stadium
+2025,2889,37,355.1,Busch Stadium
+2025,2889,38,354.3,Busch Stadium
+2025,2889,39,353.6,Busch Stadium
+2025,2889,40,353,Busch Stadium
+2025,2889,41,352.4,Busch Stadium
+2025,2889,42,349.7,Busch Stadium
+2025,2889,43,344.7,Busch Stadium
+2025,2889,44,340,Busch Stadium
+2025,2889,45,335.3,Busch Stadium
+2025,3289,-45,334.8,Citi Field
+2025,3289,-44,336.8,Citi Field
+2025,3289,-43,338.9,Citi Field
+2025,3289,-42,341.1,Citi Field
+2025,3289,-41,343.4,Citi Field
+2025,3289,-40,345.9,Citi Field
+2025,3289,-39,348.6,Citi Field
+2025,3289,-38,351.4,Citi Field
+2025,3289,-37,354.3,Citi Field
+2025,3289,-36,357.3,Citi Field
+2025,3289,-35,357.5,Citi Field
+2025,3289,-34,357.6,Citi Field
+2025,3289,-33,357.8,Citi Field
+2025,3289,-32,358.1,Citi Field
+2025,3289,-31,358.3,Citi Field
+2025,3289,-30,358.3,Citi Field
+2025,3289,-29,358.5,Citi Field
+2025,3289,-28,358.9,Citi Field
+2025,3289,-27,359.3,Citi Field
+2025,3289,-26,359.8,Citi Field
+2025,3289,-25,360.5,Citi Field
+2025,3289,-24,361.2,Citi Field
+2025,3289,-23,362.1,Citi Field
+2025,3289,-22,363.1,Citi Field
+2025,3289,-21,364.2,Citi Field
+2025,3289,-20,365.4,Citi Field
+2025,3289,-19,366.7,Citi Field
+2025,3289,-18,368.2,Citi Field
+2025,3289,-17,369.9,Citi Field
+2025,3289,-16,372,Citi Field
+2025,3289,-15,374.3,Citi Field
+2025,3289,-14,376.8,Citi Field
+2025,3289,-13,379.4,Citi Field
+2025,3289,-12,382.1,Citi Field
+2025,3289,-11,385,Citi Field
+2025,3289,-10,388.1,Citi Field
+2025,3289,-9,391.3,Citi Field
+2025,3289,-8,394.7,Citi Field
+2025,3289,-7,398.3,Citi Field
+2025,3289,-6,402,Citi Field
+2025,3289,-5,406,Citi Field
+2025,3289,-4,408.9,Citi Field
+2025,3289,-3,408.6,Citi Field
+2025,3289,-2,408.3,Citi Field
+2025,3289,-1,408.1,Citi Field
+2025,3289,0,408.1,Citi Field
+2025,3289,1,408.2,Citi Field
+2025,3289,2,408.3,Citi Field
+2025,3289,3,408.6,Citi Field
+2025,3289,4,407.9,Citi Field
+2025,3289,5,404.4,Citi Field
+2025,3289,6,401.1,Citi Field
+2025,3289,7,397.9,Citi Field
+2025,3289,8,394.9,Citi Field
+2025,3289,9,392.1,Citi Field
+2025,3289,10,389.4,Citi Field
+2025,3289,11,386.9,Citi Field
+2025,3289,12,384.5,Citi Field
+2025,3289,13,382.3,Citi Field
+2025,3289,14,380.2,Citi Field
+2025,3289,15,378.2,Citi Field
+2025,3289,16,376.4,Citi Field
+2025,3289,17,374.7,Citi Field
+2025,3289,18,373.1,Citi Field
+2025,3289,19,371.7,Citi Field
+2025,3289,20,370.4,Citi Field
+2025,3289,21,369.2,Citi Field
+2025,3289,22,368.2,Citi Field
+2025,3289,23,369,Citi Field
+2025,3289,24,369.9,Citi Field
+2025,3289,25,370.9,Citi Field
+2025,3289,26,371.9,Citi Field
+2025,3289,27,373.1,Citi Field
+2025,3289,28,374.2,Citi Field
+2025,3289,29,371.1,Citi Field
+2025,3289,30,368.1,Citi Field
+2025,3289,31,365.2,Citi Field
+2025,3289,32,362.4,Citi Field
+2025,3289,33,359.9,Citi Field
+2025,3289,34,357.4,Citi Field
+2025,3289,35,355.1,Citi Field
+2025,3289,36,352.9,Citi Field
+2025,3289,37,350.9,Citi Field
+2025,3289,38,348.1,Citi Field
+2025,3289,39,342.5,Citi Field
+2025,3289,40,336.8,Citi Field
+2025,3289,41,335.2,Citi Field
+2025,3289,42,333.8,Citi Field
+2025,3289,43,332.5,Citi Field
+2025,3289,44,331.3,Citi Field
+2025,3289,45,330.2,Citi Field
+2025,3309,-45,336.1,Nationals Park
+2025,3309,-44,337.6,Nationals Park
+2025,3309,-43,339.2,Nationals Park
+2025,3309,-42,341,Nationals Park
+2025,3309,-41,342.9,Nationals Park
+2025,3309,-40,344.9,Nationals Park
+2025,3309,-39,347,Nationals Park
+2025,3309,-38,349.3,Nationals Park
+2025,3309,-37,351.7,Nationals Park
+2025,3309,-36,354.3,Nationals Park
+2025,3309,-35,357,Nationals Park
+2025,3309,-34,359.8,Nationals Park
+2025,3309,-33,362.9,Nationals Park
+2025,3309,-32,366,Nationals Park
+2025,3309,-31,368,Nationals Park
+2025,3309,-30,367.9,Nationals Park
+2025,3309,-29,370.4,Nationals Park
+2025,3309,-28,370.7,Nationals Park
+2025,3309,-27,370.9,Nationals Park
+2025,3309,-26,371.1,Nationals Park
+2025,3309,-25,371.5,Nationals Park
+2025,3309,-24,372,Nationals Park
+2025,3309,-23,372.6,Nationals Park
+2025,3309,-22,373.3,Nationals Park
+2025,3309,-21,374.2,Nationals Park
+2025,3309,-20,375.2,Nationals Park
+2025,3309,-19,376.2,Nationals Park
+2025,3309,-18,377.4,Nationals Park
+2025,3309,-17,378.8,Nationals Park
+2025,3309,-16,380.2,Nationals Park
+2025,3309,-15,381.8,Nationals Park
+2025,3309,-14,382.5,Nationals Park
+2025,3309,-13,378,Nationals Park
+2025,3309,-12,379.4,Nationals Park
+2025,3309,-11,381.5,Nationals Park
+2025,3309,-10,383.7,Nationals Park
+2025,3309,-9,386,Nationals Park
+2025,3309,-8,388.5,Nationals Park
+2025,3309,-7,391.2,Nationals Park
+2025,3309,-6,394,Nationals Park
+2025,3309,-5,397,Nationals Park
+2025,3309,-4,400.1,Nationals Park
+2025,3309,-3,403.4,Nationals Park
+2025,3309,-2,406.9,Nationals Park
+2025,3309,-1,405.2,Nationals Park
+2025,3309,0,402.1,Nationals Park
+2025,3309,1,399.1,Nationals Park
+2025,3309,2,396.2,Nationals Park
+2025,3309,3,393.5,Nationals Park
+2025,3309,4,391,Nationals Park
+2025,3309,5,388.6,Nationals Park
+2025,3309,6,386.4,Nationals Park
+2025,3309,7,384.3,Nationals Park
+2025,3309,8,382.3,Nationals Park
+2025,3309,9,380.5,Nationals Park
+2025,3309,10,378.8,Nationals Park
+2025,3309,11,377.3,Nationals Park
+2025,3309,12,375.8,Nationals Park
+2025,3309,13,374.5,Nationals Park
+2025,3309,14,373.3,Nationals Park
+2025,3309,15,372.3,Nationals Park
+2025,3309,16,371.3,Nationals Park
+2025,3309,17,370.5,Nationals Park
+2025,3309,18,369.8,Nationals Park
+2025,3309,19,369.2,Nationals Park
+2025,3309,20,368.7,Nationals Park
+2025,3309,21,368.3,Nationals Park
+2025,3309,22,368.1,Nationals Park
+2025,3309,23,367.9,Nationals Park
+2025,3309,24,367.9,Nationals Park
+2025,3309,25,368,Nationals Park
+2025,3309,26,368.2,Nationals Park
+2025,3309,27,368.5,Nationals Park
+2025,3309,28,368.9,Nationals Park
+2025,3309,29,369.4,Nationals Park
+2025,3309,30,370,Nationals Park
+2025,3309,31,370.5,Nationals Park
+2025,3309,32,368,Nationals Park
+2025,3309,33,364.5,Nationals Park
+2025,3309,34,361.2,Nationals Park
+2025,3309,35,358.1,Nationals Park
+2025,3309,36,355.1,Nationals Park
+2025,3309,37,352.3,Nationals Park
+2025,3309,38,349.6,Nationals Park
+2025,3309,39,347.1,Nationals Park
+2025,3309,40,344.7,Nationals Park
+2025,3309,41,342.5,Nationals Park
+2025,3309,42,340.4,Nationals Park
+2025,3309,43,338.4,Nationals Park
+2025,3309,44,336.5,Nationals Park
+2025,3309,45,334.8,Nationals Park
+2025,3312,-45,338.8,Target Field
+2025,3312,-44,339.2,Target Field
+2025,3312,-43,339.7,Target Field
+2025,3312,-42,340.4,Target Field
+2025,3312,-41,341.1,Target Field
+2025,3312,-40,341.9,Target Field
+2025,3312,-39,342.9,Target Field
+2025,3312,-38,343.9,Target Field
+2025,3312,-37,345.1,Target Field
+2025,3312,-36,346.4,Target Field
+2025,3312,-35,347.8,Target Field
+2025,3312,-34,349.3,Target Field
+2025,3312,-33,350.9,Target Field
+2025,3312,-32,352.7,Target Field
+2025,3312,-31,354.6,Target Field
+2025,3312,-30,356.6,Target Field
+2025,3312,-29,358.7,Target Field
+2025,3312,-28,361,Target Field
+2025,3312,-27,363.4,Target Field
+2025,3312,-26,366,Target Field
+2025,3312,-25,368.7,Target Field
+2025,3312,-24,371.6,Target Field
+2025,3312,-23,374.6,Target Field
+2025,3312,-22,376.7,Target Field
+2025,3312,-21,377.9,Target Field
+2025,3312,-20,379.2,Target Field
+2025,3312,-19,380.6,Target Field
+2025,3312,-18,382.2,Target Field
+2025,3312,-17,383.9,Target Field
+2025,3312,-16,385.7,Target Field
+2025,3312,-15,387.6,Target Field
+2025,3312,-14,389.7,Target Field
+2025,3312,-13,392,Target Field
+2025,3312,-12,394.3,Target Field
+2025,3312,-11,396.9,Target Field
+2025,3312,-10,399.6,Target Field
+2025,3312,-9,402.4,Target Field
+2025,3312,-8,405.4,Target Field
+2025,3312,-7,408.6,Target Field
+2025,3312,-6,410.4,Target Field
+2025,3312,-5,409.1,Target Field
+2025,3312,-4,407.9,Target Field
+2025,3312,-3,406.8,Target Field
+2025,3312,-2,405.8,Target Field
+2025,3312,-1,405,Target Field
+2025,3312,0,404.3,Target Field
+2025,3312,1,403.7,Target Field
+2025,3312,2,403.3,Target Field
+2025,3312,3,402.9,Target Field
+2025,3312,4,402.7,Target Field
+2025,3312,5,402.6,Target Field
+2025,3312,6,402.7,Target Field
+2025,3312,7,400.7,Target Field
+2025,3312,8,397.5,Target Field
+2025,3312,9,394.4,Target Field
+2025,3312,10,391.4,Target Field
+2025,3312,11,388.6,Target Field
+2025,3312,12,386,Target Field
+2025,3312,13,383.5,Target Field
+2025,3312,14,381.2,Target Field
+2025,3312,15,379,Target Field
+2025,3312,16,376.9,Target Field
+2025,3312,17,375,Target Field
+2025,3312,18,373.2,Target Field
+2025,3312,19,371.5,Target Field
+2025,3312,20,370,Target Field
+2025,3312,21,368.6,Target Field
+2025,3312,22,367.3,Target Field
+2025,3312,23,366.1,Target Field
+2025,3312,24,365.1,Target Field
+2025,3312,25,362.1,Target Field
+2025,3312,26,359.1,Target Field
+2025,3312,27,356.3,Target Field
+2025,3312,28,353.6,Target Field
+2025,3312,29,351.1,Target Field
+2025,3312,30,348.8,Target Field
+2025,3312,31,346.5,Target Field
+2025,3312,32,344.4,Target Field
+2025,3312,33,342.4,Target Field
+2025,3312,34,340.6,Target Field
+2025,3312,35,338.9,Target Field
+2025,3312,36,337.3,Target Field
+2025,3312,37,335.8,Target Field
+2025,3312,38,334.4,Target Field
+2025,3312,39,333.2,Target Field
+2025,3312,40,332,Target Field
+2025,3312,41,331,Target Field
+2025,3312,42,330,Target Field
+2025,3312,43,329.2,Target Field
+2025,3312,44,328.5,Target Field
+2025,3312,45,327.8,Target Field
+2025,3313,-45,318,Yankee Stadium
+2025,3313,-44,323.4,Yankee Stadium
+2025,3313,-43,328,Yankee Stadium
+2025,3313,-42,332.6,Yankee Stadium
+2025,3313,-41,337,Yankee Stadium
+2025,3313,-40,340.5,Yankee Stadium
+2025,3313,-39,344.2,Yankee Stadium
+2025,3313,-38,347.3,Yankee Stadium
+2025,3313,-37,350.2,Yankee Stadium
+2025,3313,-36,353.2,Yankee Stadium
+2025,3313,-35,354.6,Yankee Stadium
+2025,3313,-34,355.8,Yankee Stadium
+2025,3313,-33,357.1,Yankee Stadium
+2025,3313,-32,358.4,Yankee Stadium
+2025,3313,-31,359.9,Yankee Stadium
+2025,3313,-30,361.6,Yankee Stadium
+2025,3313,-29,363.3,Yankee Stadium
+2025,3313,-28,365.2,Yankee Stadium
+2025,3313,-27,367.2,Yankee Stadium
+2025,3313,-26,369.4,Yankee Stadium
+2025,3313,-25,371.6,Yankee Stadium
+2025,3313,-24,374.1,Yankee Stadium
+2025,3313,-23,376.6,Yankee Stadium
+2025,3313,-22,379.4,Yankee Stadium
+2025,3313,-21,382.3,Yankee Stadium
+2025,3313,-20,385.3,Yankee Stadium
+2025,3313,-19,388.5,Yankee Stadium
+2025,3313,-18,391.7,Yankee Stadium
+2025,3313,-17,393.3,Yankee Stadium
+2025,3313,-16,395.2,Yankee Stadium
+2025,3313,-15,397.1,Yankee Stadium
+2025,3313,-14,399.2,Yankee Stadium
+2025,3313,-13,401.4,Yankee Stadium
+2025,3313,-12,403.8,Yankee Stadium
+2025,3313,-11,404.6,Yankee Stadium
+2025,3313,-10,405.5,Yankee Stadium
+2025,3313,-9,406.2,Yankee Stadium
+2025,3313,-8,406.9,Yankee Stadium
+2025,3313,-7,407.7,Yankee Stadium
+2025,3313,-6,408.5,Yankee Stadium
+2025,3313,-5,409,Yankee Stadium
+2025,3313,-4,409.4,Yankee Stadium
+2025,3313,-3,409,Yankee Stadium
+2025,3313,-2,408.7,Yankee Stadium
+2025,3313,-1,408.5,Yankee Stadium
+2025,3313,0,408.4,Yankee Stadium
+2025,3313,1,407.3,Yankee Stadium
+2025,3313,2,406.4,Yankee Stadium
+2025,3313,3,405.6,Yankee Stadium
+2025,3313,4,404.8,Yankee Stadium
+2025,3313,5,403.2,Yankee Stadium
+2025,3313,6,401.6,Yankee Stadium
+2025,3313,7,400.1,Yankee Stadium
+2025,3313,8,398.5,Yankee Stadium
+2025,3313,9,394.9,Yankee Stadium
+2025,3313,10,391.5,Yankee Stadium
+2025,3313,11,388.3,Yankee Stadium
+2025,3313,12,385.3,Yankee Stadium
+2025,3313,13,382.4,Yankee Stadium
+2025,3313,14,379.7,Yankee Stadium
+2025,3313,15,375.8,Yankee Stadium
+2025,3313,16,372.1,Yankee Stadium
+2025,3313,17,368.6,Yankee Stadium
+2025,3313,18,365.3,Yankee Stadium
+2025,3313,19,362.1,Yankee Stadium
+2025,3313,20,359.1,Yankee Stadium
+2025,3313,21,356.2,Yankee Stadium
+2025,3313,22,353.5,Yankee Stadium
+2025,3313,23,351,Yankee Stadium
+2025,3313,24,348.6,Yankee Stadium
+2025,3313,25,346.3,Yankee Stadium
+2025,3313,26,344.1,Yankee Stadium
+2025,3313,27,342.1,Yankee Stadium
+2025,3313,28,340.2,Yankee Stadium
+2025,3313,29,338.5,Yankee Stadium
+2025,3313,30,336.8,Yankee Stadium
+2025,3313,31,335.3,Yankee Stadium
+2025,3313,32,333.9,Yankee Stadium
+2025,3313,33,332.6,Yankee Stadium
+2025,3313,34,331.4,Yankee Stadium
+2025,3313,35,330.4,Yankee Stadium
+2025,3313,36,329.4,Yankee Stadium
+2025,3313,37,328.5,Yankee Stadium
+2025,3313,38,327.8,Yankee Stadium
+2025,3313,39,327.1,Yankee Stadium
+2025,3313,40,326.5,Yankee Stadium
+2025,3313,41,324.8,Yankee Stadium
+2025,3313,42,323.3,Yankee Stadium
+2025,3313,43,320.5,Yankee Stadium
+2025,3313,44,317.9,Yankee Stadium
+2025,3313,45,313.8,Yankee Stadium
+2025,4169,-45,343.7,loanDepot park
+2025,4169,-44,345.2,loanDepot park
+2025,4169,-43,346.8,loanDepot park
+2025,4169,-42,348.5,loanDepot park
+2025,4169,-41,350.4,loanDepot park
+2025,4169,-40,352.4,loanDepot park
+2025,4169,-39,354.3,loanDepot park
+2025,4169,-38,355.8,loanDepot park
+2025,4169,-37,357.3,loanDepot park
+2025,4169,-36,359.1,loanDepot park
+2025,4169,-35,360.9,loanDepot park
+2025,4169,-34,362.6,loanDepot park
+2025,4169,-33,364,loanDepot park
+2025,4169,-32,365.5,loanDepot park
+2025,4169,-31,367.2,loanDepot park
+2025,4169,-30,369,loanDepot park
+2025,4169,-29,370.9,loanDepot park
+2025,4169,-28,372.2,loanDepot park
+2025,4169,-27,373.6,loanDepot park
+2025,4169,-26,375.1,loanDepot park
+2025,4169,-25,376.7,loanDepot park
+2025,4169,-24,378.4,loanDepot park
+2025,4169,-23,379.9,loanDepot park
+2025,4169,-22,381.2,loanDepot park
+2025,4169,-21,382.5,loanDepot park
+2025,4169,-20,383.9,loanDepot park
+2025,4169,-19,385.6,loanDepot park
+2025,4169,-18,387.2,loanDepot park
+2025,4169,-17,388.4,loanDepot park
+2025,4169,-16,389.2,loanDepot park
+2025,4169,-15,389.7,loanDepot park
+2025,4169,-14,389.9,loanDepot park
+2025,4169,-13,390,loanDepot park
+2025,4169,-12,390.5,loanDepot park
+2025,4169,-11,391.8,loanDepot park
+2025,4169,-10,394,loanDepot park
+2025,4169,-9,397.5,loanDepot park
+2025,4169,-8,402.1,loanDepot park
+2025,4169,-7,405,loanDepot park
+2025,4169,-6,404.7,loanDepot park
+2025,4169,-5,404.3,loanDepot park
+2025,4169,-4,403.6,loanDepot park
+2025,4169,-3,402.8,loanDepot park
+2025,4169,-2,401.9,loanDepot park
+2025,4169,-1,400.8,loanDepot park
+2025,4169,0,399.7,loanDepot park
+2025,4169,1,398.3,loanDepot park
+2025,4169,2,396.9,loanDepot park
+2025,4169,3,395.5,loanDepot park
+2025,4169,4,394.2,loanDepot park
+2025,4169,5,393,loanDepot park
+2025,4169,6,392.2,loanDepot park
+2025,4169,7,391.5,loanDepot park
+2025,4169,8,390.7,loanDepot park
+2025,4169,9,389.9,loanDepot park
+2025,4169,10,388.9,loanDepot park
+2025,4169,11,388,loanDepot park
+2025,4169,12,387.2,loanDepot park
+2025,4169,13,386.7,loanDepot park
+2025,4169,14,386.4,loanDepot park
+2025,4169,15,386.2,loanDepot park
+2025,4169,16,386.1,loanDepot park
+2025,4169,17,385.5,loanDepot park
+2025,4169,18,384.8,loanDepot park
+2025,4169,19,384,loanDepot park
+2025,4169,20,383.3,loanDepot park
+2025,4169,21,382.1,loanDepot park
+2025,4169,22,380.9,loanDepot park
+2025,4169,23,378.1,loanDepot park
+2025,4169,24,374.6,loanDepot park
+2025,4169,25,371.3,loanDepot park
+2025,4169,26,368.2,loanDepot park
+2025,4169,27,365.2,loanDepot park
+2025,4169,28,362.2,loanDepot park
+2025,4169,29,359.6,loanDepot park
+2025,4169,30,357.1,loanDepot park
+2025,4169,31,354.7,loanDepot park
+2025,4169,32,352.5,loanDepot park
+2025,4169,33,350.4,loanDepot park
+2025,4169,34,348.5,loanDepot park
+2025,4169,35,346.7,loanDepot park
+2025,4169,36,345,loanDepot park
+2025,4169,37,343.3,loanDepot park
+2025,4169,38,341.8,loanDepot park
+2025,4169,39,340.5,loanDepot park
+2025,4169,40,339.2,loanDepot park
+2025,4169,41,338,loanDepot park
+2025,4169,42,337,loanDepot park
+2025,4169,43,336,loanDepot park
+2025,4169,44,335.2,loanDepot park
+2025,4169,45,334.4,loanDepot park
+2025,4705,-45,334.8,Truist Park
+2025,4705,-44,337.1,Truist Park
+2025,4705,-43,339.5,Truist Park
+2025,4705,-42,342,Truist Park
+2025,4705,-41,344.6,Truist Park
+2025,4705,-40,347.5,Truist Park
+2025,4705,-39,350.4,Truist Park
+2025,4705,-38,353.6,Truist Park
+2025,4705,-37,356.9,Truist Park
+2025,4705,-36,360.3,Truist Park
+2025,4705,-35,364,Truist Park
+2025,4705,-34,367.8,Truist Park
+2025,4705,-33,371.8,Truist Park
+2025,4705,-32,376.1,Truist Park
+2025,4705,-31,377.2,Truist Park
+2025,4705,-30,377.7,Truist Park
+2025,4705,-29,378.3,Truist Park
+2025,4705,-28,379,Truist Park
+2025,4705,-27,379.9,Truist Park
+2025,4705,-26,380.8,Truist Park
+2025,4705,-25,381.9,Truist Park
+2025,4705,-24,383.1,Truist Park
+2025,4705,-23,384.4,Truist Park
+2025,4705,-22,385.2,Truist Park
+2025,4705,-21,385.3,Truist Park
+2025,4705,-20,385.6,Truist Park
+2025,4705,-19,385.9,Truist Park
+2025,4705,-18,386.4,Truist Park
+2025,4705,-17,387,Truist Park
+2025,4705,-16,387.7,Truist Park
+2025,4705,-15,388.5,Truist Park
+2025,4705,-14,389.4,Truist Park
+2025,4705,-13,390.5,Truist Park
+2025,4705,-12,391.7,Truist Park
+2025,4705,-11,393,Truist Park
+2025,4705,-10,394.5,Truist Park
+2025,4705,-9,396.1,Truist Park
+2025,4705,-8,397.8,Truist Park
+2025,4705,-7,399.7,Truist Park
+2025,4705,-6,401.6,Truist Park
+2025,4705,-5,402,Truist Park
+2025,4705,-4,401.4,Truist Park
+2025,4705,-3,400.9,Truist Park
+2025,4705,-2,400.5,Truist Park
+2025,4705,-1,400.3,Truist Park
+2025,4705,0,400.2,Truist Park
+2025,4705,1,400.2,Truist Park
+2025,4705,2,400.3,Truist Park
+2025,4705,3,400.6,Truist Park
+2025,4705,4,401,Truist Park
+2025,4705,5,401.4,Truist Park
+2025,4705,6,401.5,Truist Park
+2025,4705,7,398.8,Truist Park
+2025,4705,8,396.3,Truist Park
+2025,4705,9,393.9,Truist Park
+2025,4705,10,391.6,Truist Park
+2025,4705,11,389.6,Truist Park
+2025,4705,12,387.6,Truist Park
+2025,4705,13,385.8,Truist Park
+2025,4705,14,384.1,Truist Park
+2025,4705,15,382.5,Truist Park
+2025,4705,16,381.1,Truist Park
+2025,4705,17,379.8,Truist Park
+2025,4705,18,378.6,Truist Park
+2025,4705,19,377.6,Truist Park
+2025,4705,20,376.7,Truist Park
+2025,4705,21,375.8,Truist Park
+2025,4705,22,375.1,Truist Park
+2025,4705,23,372.9,Truist Park
+2025,4705,24,369.2,Truist Park
+2025,4705,25,365.7,Truist Park
+2025,4705,26,362.3,Truist Park
+2025,4705,27,359.1,Truist Park
+2025,4705,28,356,Truist Park
+2025,4705,29,353.1,Truist Park
+2025,4705,30,350.4,Truist Park
+2025,4705,31,347.8,Truist Park
+2025,4705,32,345.3,Truist Park
+2025,4705,33,343,Truist Park
+2025,4705,34,340.8,Truist Park
+2025,4705,35,338.8,Truist Park
+2025,4705,36,336.9,Truist Park
+2025,4705,37,335.1,Truist Park
+2025,4705,38,333.4,Truist Park
+2025,4705,39,331.8,Truist Park
+2025,4705,40,330.4,Truist Park
+2025,4705,41,329,Truist Park
+2025,4705,42,327.8,Truist Park
+2025,4705,43,326.7,Truist Park
+2025,4705,44,325.7,Truist Park
+2025,4705,45,324.8,Truist Park
+2025,5325,-45,328.9,Globe Life Field
+2025,5325,-44,331.9,Globe Life Field
+2025,5325,-43,335,Globe Life Field
+2025,5325,-42,338.3,Globe Life Field
+2025,5325,-41,341.8,Globe Life Field
+2025,5325,-40,345.4,Globe Life Field
+2025,5325,-39,349.2,Globe Life Field
+2025,5325,-38,353.2,Globe Life Field
+2025,5325,-37,357.5,Globe Life Field
+2025,5325,-36,361.9,Globe Life Field
+2025,5325,-35,366.5,Globe Life Field
+2025,5325,-34,368.6,Globe Life Field
+2025,5325,-33,368.1,Globe Life Field
+2025,5325,-32,367.7,Globe Life Field
+2025,5325,-31,367.4,Globe Life Field
+2025,5325,-30,367.2,Globe Life Field
+2025,5325,-29,367.1,Globe Life Field
+2025,5325,-28,367.1,Globe Life Field
+2025,5325,-27,367.3,Globe Life Field
+2025,5325,-26,367.5,Globe Life Field
+2025,5325,-25,367.9,Globe Life Field
+2025,5325,-24,368.4,Globe Life Field
+2025,5325,-23,369,Globe Life Field
+2025,5325,-22,369.7,Globe Life Field
+2025,5325,-21,370.5,Globe Life Field
+2025,5325,-20,371.5,Globe Life Field
+2025,5325,-19,372.5,Globe Life Field
+2025,5325,-18,373.7,Globe Life Field
+2025,5325,-17,376.4,Globe Life Field
+2025,5325,-16,389.2,Globe Life Field
+2025,5325,-15,391.6,Globe Life Field
+2025,5325,-14,393.4,Globe Life Field
+2025,5325,-13,395.3,Globe Life Field
+2025,5325,-12,397.3,Globe Life Field
+2025,5325,-11,399.5,Globe Life Field
+2025,5325,-10,401.9,Globe Life Field
+2025,5325,-9,404.3,Globe Life Field
+2025,5325,-8,407,Globe Life Field
+2025,5325,-7,409.7,Globe Life Field
+2025,5325,-6,409.2,Globe Life Field
+2025,5325,-5,408.6,Globe Life Field
+2025,5325,-4,408,Globe Life Field
+2025,5325,-3,407.6,Globe Life Field
+2025,5325,-2,407.2,Globe Life Field
+2025,5325,-1,407.1,Globe Life Field
+2025,5325,0,407,Globe Life Field
+2025,5325,1,407.1,Globe Life Field
+2025,5325,2,407.2,Globe Life Field
+2025,5325,3,407.6,Globe Life Field
+2025,5325,4,408,Globe Life Field
+2025,5325,5,408.6,Globe Life Field
+2025,5325,6,409.2,Globe Life Field
+2025,5325,7,409.1,Globe Life Field
+2025,5325,8,404,Globe Life Field
+2025,5325,9,398.7,Globe Life Field
+2025,5325,10,393.6,Globe Life Field
+2025,5325,11,388.7,Globe Life Field
+2025,5325,12,384.1,Globe Life Field
+2025,5325,13,379.8,Globe Life Field
+2025,5325,14,375.6,Globe Life Field
+2025,5325,15,371.6,Globe Life Field
+2025,5325,16,368.4,Globe Life Field
+2025,5325,17,371.2,Globe Life Field
+2025,5325,18,374.2,Globe Life Field
+2025,5325,19,377.4,Globe Life Field
+2025,5325,20,380.4,Globe Life Field
+2025,5325,21,379.2,Globe Life Field
+2025,5325,22,376.2,Globe Life Field
+2025,5325,23,373.3,Globe Life Field
+2025,5325,24,370.6,Globe Life Field
+2025,5325,25,368.1,Globe Life Field
+2025,5325,26,365.7,Globe Life Field
+2025,5325,27,363.4,Globe Life Field
+2025,5325,28,361.3,Globe Life Field
+2025,5325,29,359.3,Globe Life Field
+2025,5325,30,357.4,Globe Life Field
+2025,5325,31,355.7,Globe Life Field
+2025,5325,32,354.1,Globe Life Field
+2025,5325,33,352.6,Globe Life Field
+2025,5325,34,351.2,Globe Life Field
+2025,5325,35,350,Globe Life Field
+2025,5325,36,348.9,Globe Life Field
+2025,5325,37,347.8,Globe Life Field
+2025,5325,38,346.6,Globe Life Field
+2025,5325,39,343.1,Globe Life Field
+2025,5325,40,339.9,Globe Life Field
+2025,5325,41,336.8,Globe Life Field
+2025,5325,42,333.9,Globe Life Field
+2025,5325,43,331.1,Globe Life Field
+2025,5325,44,328.5,Globe Life Field
+2025,5325,45,326,Globe Life Field
