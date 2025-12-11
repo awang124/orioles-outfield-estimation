@@ -27,7 +27,7 @@ pip install opencv-python numpy matplotlib requests
 
 ## Configuration
 
-Before running the script, update these variables in the code:
+Before running the script, update these variables in the code if you are using the Google Maps API instead of an uploaded image. 
 
 1. **API Key**: Replace `api_key` with your Google Maps Static API key
 2. **Field Coordinates**: Update the latitude/longitude values:
@@ -101,10 +101,10 @@ Before running the script, update these variables in the code:
 
 ## Customization / Refinement
 
-- Adjust `min_distance_ft` (currently 275) if detecting infield boundaries
+- Adjust `min_distance_ft` (currently 275) if detecting boundaries for a smaller park such as a college or high school dield
 - Modify color ranges in `grassmask()` and `dirtmask()` for different field conditions
-- Tweak `smooth_distances()` parameters if measurements are too jumpy
-- Adjust `feet_per_pixel` calculation if base path distance isn't exactly 90 feet
+- Tweak `smooth_distances()` parameters if measurements are too jumpy. Add more to smooth more. 
+- Adjust `feet_per_pixel` calculation if the distance between home and first plate isn't exactly 90 feet. 
 
 ## Troubleshooting
 
