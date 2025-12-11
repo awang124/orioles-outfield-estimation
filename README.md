@@ -37,6 +37,23 @@ Before running the script, update these variables in the code if you are using t
    - `third_latlng`: Third base coordinates
 3. **Image Settings**: Adjust `size` and `zoom` for desired resolution
 
+## Command that runs the program
+
+WITH IMAGE:
+python outfield_estimation.py  --image-path <YOUR IMAGE> --csv-path <FILENAME TO SAVE CSV> --vis-path <FILENAME TO SAVE VISUALIZATION> --graph-path <FILENAME TO SAVE ANGLE/DISTANCE GRAPH> --field-type <ONE OF "MLB", "MiLB", "Olympic"> --smoothness-level <MAXIMUM DIFFERENCE BETWEEN DISTANCES>
+
+WITH COORDINATES:
+python outfield_estimation.py --latitude <YOUR LATITUDE> --longitude <YOUR LONGITUDE> --zoom <YOUR ZOOM> --api-key <YOUR API-KEY> --image-path <FILENAME TO SAVE IMAGE> --csv-path <FILENAME TO SAVE CSV> --vis-path <FILENAME TO SAVE VISUALIZATION> --graph-path <FILENAME TO SAVE ANGLE/DISTANCE GRAPH> --field-type <ONE OF "MLB", "MiLB", "Olympic"> --smoothness-level <MAXIMUM DIFFERENCE BETWEEN DISTANCES>
+
+THESE ARGUMENTS HAVE DEFAULTS (SO THEY'RE OPTIONAL):
+--zoom := 19
+--image-path := field.png
+--csv-path := distances.csv
+--vis-path := distances_vis.png
+--graph-path := distances_graph.png
+--field-type := "MLB"
+--smoothness-level := 5
+
 ## Functions
 
 ### `grassmask(image)`
