@@ -2,6 +2,11 @@
 
 This Jupyter Notebook (`Four Points.ipynb`) analyzes satellite imagery of baseball fields to calculate distances from home plate to the outfield wall at various angles. It uses the Google Maps Static API to retrieve field images and computer vision techniques to detect field boundaries.
 
+## Getting Images
+How to correctly collect images from Google Earth Pro. To get historical images, between step 2 and 3, select the clock icon at the top to select the year you want the image from and follow the steps in the video. 
+
+Link: [https://youtu.be/DZWq781ROYY](url)
+
 ## Overview
 
 The script processes a satellite image of a baseball field to:
