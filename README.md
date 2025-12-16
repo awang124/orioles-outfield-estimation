@@ -2,6 +2,11 @@
 
 This Jupyter Notebook (`Four Points.ipynb`) analyzes satellite imagery of baseball fields to calculate distances from home plate to the outfield wall at various angles. It uses the Google Maps Static API to retrieve field images and computer vision techniques to detect field boundaries.
 
+## Getting Images
+How to correctly collect images from Google Earth Pro. To get historical images, between step 2 and 3, select the clock icon at the top to select the year you want the image from and follow the steps in the video. 
+
+Link: [https://youtu.be/DZWq781ROYY](url)
+
 ## Overview
 
 The script processes a satellite image of a baseball field to:
@@ -22,7 +27,7 @@ pip install opencv-python numpy matplotlib requests
 
 ## Configuration
 
-Before running the script, update these variables in the code:
+Before running the script, update these variables in the code if you are using the Google Maps API instead of an uploaded image. 
 
 1. **API Key**: Replace `api_key` with your Google Maps Static API key
 2. **Field Coordinates**: Update the latitude/longitude values:
@@ -31,6 +36,23 @@ Before running the script, update these variables in the code:
    - `first_latlng`: First base coordinates  
    - `third_latlng`: Third base coordinates
 3. **Image Settings**: Adjust `size` and `zoom` for desired resolution
+
+## Command that runs the program
+
+WITH IMAGE:
+python outfield_estimation.py  --image-path <YOUR IMAGE> --csv-path <FILENAME TO SAVE CSV> --vis-path <FILENAME TO SAVE VISUALIZATION> --graph-path <FILENAME TO SAVE ANGLE/DISTANCE GRAPH> --field-type <ONE OF "MLB", "MiLB", "Olympic"> --smoothness-level <MAXIMUM DIFFERENCE BETWEEN DISTANCES>
+
+WITH COORDINATES:
+python outfield_estimation.py --latitude <YOUR LATITUDE> --longitude <YOUR LONGITUDE> --zoom <YOUR ZOOM> --api-key <YOUR API-KEY> --image-path <FILENAME TO SAVE IMAGE> --csv-path <FILENAME TO SAVE CSV> --vis-path <FILENAME TO SAVE VISUALIZATION> --graph-path <FILENAME TO SAVE ANGLE/DISTANCE GRAPH> --field-type <ONE OF "MLB", "MiLB", "Olympic"> --smoothness-level <MAXIMUM DIFFERENCE BETWEEN DISTANCES>
+
+THESE ARGUMENTS HAVE DEFAULTS (SO THEY'RE OPTIONAL):
+--zoom := 19
+--image-path := field.png
+--csv-path := distances.csv
+--vis-path := distances_vis.png
+--graph-path := distances_graph.png
+--field-type := "MLB"
+--smoothness-level := 5
 
 ## Functions
 
@@ -96,10 +118,10 @@ Before running the script, update these variables in the code:
 
 ## Customization / Refinement
 
-- Adjust `min_distance_ft` (currently 275) if detecting infield boundaries
+- Adjust `min_distance_ft` (currently 275) if detecting boundaries for a smaller park such as a college or high school dield
 - Modify color ranges in `grassmask()` and `dirtmask()` for different field conditions
-- Tweak `smooth_distances()` parameters if measurements are too jumpy
-- Adjust `feet_per_pixel` calculation if base path distance isn't exactly 90 feet
+- Tweak `smooth_distances()` parameters if measurements are too jumpy. Add more to smooth more. 
+- Adjust `feet_per_pixel` calculation if the distance between home and first plate isn't exactly 90 feet. 
 
 ## Troubleshooting
 
