@@ -43,7 +43,7 @@ python outfield_estimation.py --latitude <BALLPARK_LATITUDE> --longitude <BALLPA
 **--vis-path**: Filename to which to save distance visualization (`NONE` if no save desired, default `distances_vis.png`)  
 **--graph-path**: Filename to which to save angle/distance graph (`NONE` if no save desired, default `distances_graph.png`)  
 **--field-type**: Field type (`MLB`, `MiLB`, `Olympic`), defines warning track length (default `MLB`)  
-**--min-distance-feet**: Minimum distance (in feet) to consider (default `275`)
+**--min-distance-feet**: Minimum distance (in feet) to consider (default `275`)  
 **--smooth-level** : Maximum allowed jump (in feet) between consecutive measurements (`0` if no smoothing desired, default `5`)
 
 ### Additional Optional Arguments (Map-Mode Only)
