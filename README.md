@@ -1,6 +1,6 @@
 # Baseball Outfield Distance Estimation
 
-This program (`outfield_estimation.py`) reads a ballpark image ("image-mode") or downloads it via Google Maps API ("map-mode"), and computes distances from home plate to the outfield wall at 90 evenly spaced angles between the foul lines.
+This program (`outfield_estimation.py`) reads a ballpark image ("image-mode") or downloads it via Google Maps API ("map-mode"), and computes distances from home plate to the outfield wall at 91 evenly spaced angles between the foul lines.
 
 ## Getting Images via Google Maps
 To obtain historical images (if current Google Maps imagery for a certain ballpark is insufficient, e.g. park is roofed), see this [short instructional video](https://youtu.be/DZWq781ROYY). Between Steps 2 and 3, select the clock icon at the top to select the year you want the image from.
