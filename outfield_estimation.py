@@ -626,7 +626,7 @@ def analyze_results(graph_path, distances):
             group_stats[name] = None
 
     # CREATE DISTANCE VS ANGLE LINE PLOT
-    if graph_path is not None:
+    if graph_path != "NONE":
         plt.figure(figsize=(5, 4))
         plt.plot(summary["angles"], summary["distances_ft"], linewidth=2)
         plt.title("Angle vs Outfield Distance")
@@ -686,13 +686,13 @@ def write_outputs(csv_path, vis_path, distances, visualization):
     visualization: numpy.ndarray
         Distance visualization (annotated image)
     """
-    if csv_path is not None:
+    if csv_path != "NONE":
         with open(csv_path, "w", newline="") as f:
             writer = csv.writer(f)
             writer.writerow(["Angle (deg)", "Distance (ft)"])
             for angle, _, dist in distances:
                 writer.writerow([angle, dist if dist is not None else "NA"])
-    if vis_path is not None:
+    if vis_path != "NONE":
         cv.imwrite(vis_path, visualization)
 
 def main():
