@@ -1,135 +1,71 @@
 # Baseball Outfield Distance Estimation
 
-This Jupyter Notebook (`Four Points.ipynb`) analyzes satellite imagery of baseball fields to calculate distances from home plate to the outfield wall at various angles. It uses the Google Maps Static API to retrieve field images and computer vision techniques to detect field boundaries.
+This program (`outfield_estimation.py`) reads a ballpark image ("image-mode") or downloads it via Google Maps API ("map-mode"), and computes distances from home plate to the outfield wall at 90 evenly spaced angles between the foul lines.
 
-## Getting Images
-How to correctly collect images from Google Earth Pro. To get historical images, between step 2 and 3, select the clock icon at the top to select the year you want the image from and follow the steps in the video. 
-
-Link: [https://youtu.be/DZWq781ROYY](url)
-
-## Overview
-
-The script processes a satellite image of a baseball field to:
-- Detect the outfield wall boundaries using color segmentation and edge detection
-- Calculate distances from home plate to the wall at angles ranging from -45° to +45°
-- Generate a visualization image and CSV file with distance measurements
-- Account for warning track offsets (typically 16 feet)
+## Getting Images via Google Maps
+To obtain historical images (if current Google Maps imagery for a certain ballpark is insufficient, e.g. park is roofed), see this [https://youtu.be/DZWq781ROYY](short instructional video). Between Steps 2 and 3, select the clock icon at the top to select the year you want the image from.
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3
 - Google Maps Static API key
 
-### Required Python Packages
+### Required Packages
 ```bash
 pip install opencv-python numpy matplotlib requests
 ```
 
-## Configuration
+## EXECUTION
 
-Before running the script, update these variables in the code if you are using the Google Maps API instead of an uploaded image. 
+These are bare-minimum execution commands: review Optional Arguments for further customization.
 
-1. **API Key**: Replace `api_key` with your Google Maps Static API key
-2. **Field Coordinates**: Update the latitude/longitude values:
-   - `lat, lng`: Center point of the map
-   - `home_latlng`: Home plate coordinates
-   - `first_latlng`: First base coordinates  
-   - `third_latlng`: Third base coordinates
-3. **Image Settings**: Adjust `size` and `zoom` for desired resolution
+**Image-Mode**:
+```
+python outfield_estimation.py --image-path <YOUR_IMAGE_PATH>
+```
 
-## Command that runs the program
+**Map-Mode**:
+```
+python outfield_estimation.py --latitude <BALLPARK_LATITUDE> --longitude <BALLPARK_LONGITUDE> --api-key <GOOGLE_MAPS_API_KEY> --image-path <IMAGE_SAVE_PATH>
+```
+(Whether program runs in image-mode or map-mode depends simply on whether coordinates (and API-Key) are provided).
 
-WITH IMAGE:
-python outfield_estimation.py  --image-path <YOUR IMAGE> --csv-path <FILENAME TO SAVE CSV> --vis-path <FILENAME TO SAVE VISUALIZATION> --graph-path <FILENAME TO SAVE ANGLE/DISTANCE GRAPH> --field-type <ONE OF "MLB", "MiLB", "Olympic"> --smoothness-level <MAXIMUM DIFFERENCE BETWEEN DISTANCES>
+### Required Arguments
+**--image-path**: If (--latitude, --longitude, --api-key) specified, downloads image via API to this path; otherwise, assumes user has image already downloaded, and reads from this path
 
-WITH COORDINATES:
-python outfield_estimation.py --latitude <YOUR LATITUDE> --longitude <YOUR LONGITUDE> --zoom <YOUR ZOOM> --api-key <YOUR API-KEY> --image-path <FILENAME TO SAVE IMAGE> --csv-path <FILENAME TO SAVE CSV> --vis-path <FILENAME TO SAVE VISUALIZATION> --graph-path <FILENAME TO SAVE ANGLE/DISTANCE GRAPH> --field-type <ONE OF "MLB", "MiLB", "Olympic"> --smoothness-level <MAXIMUM DIFFERENCE BETWEEN DISTANCES>
+### Required Arguments (Map-Mode Only)
+**--latitude**: latitude of desired ballpark
+**--longitude**: longitude of desired ballpark
+**--api-key**: Google Maps API Key
 
-THESE ARGUMENTS HAVE DEFAULTS (SO THEY'RE OPTIONAL):
---zoom := 19
---image-path := field.png
---csv-path := distances.csv
---vis-path := distances_vis.png
---graph-path := distances_graph.png
---field-type := "MLB"
---smoothness-level := 5
+### Additional Optional Arguments
+**--csv-path**: Filename to which to save computed distances (None if no save desired) (default `distances.csv`)
+**--vis-path**: Filename to which to save distance visualization (None if no save desired) (default `distances_vis.png`)
+**--graph-path**: Filename to which to save angle/distance graph (None if no save desired) (default `distances_graph.png`)
+**--field-type**: Field type (`MLB`, `MiLB`, `Olympic`), defines warning track length (default `MLB`)
+**--min-distance-feet**: Minimum distance (in feet) to consider (default 275)
+**--smooth-level** : Maximum allowed jump (in feet) between consecutive measurements (0 if no smoothing desired) (default 5)
 
-## Functions
-
-### `grassmask(image)`
-- **Purpose**: Creates a mask identifying grass areas using HSV color filtering
-- **Parameters**: `image` - input BGR image
-
-### `dirtmask(image)`
-- **Purpose**: Creates a mask for identifying dirt areas using HSV color filtering
-- **Parameters**: `image` - input BGR image
-
-### `dirtedge(dirtmask, window)`
-- **Purpose**: Detects dirt mask edges using Canny edge detection
-- **Parameters**: `dirtmask` - binary dirt mask, `window` - blur kernel size for noise reduction
-
-### `lines(edges, lengap)`
-- **Purpose**: Finds line segments in edge images using Hough Transform
-- **Parameters**: `edges` - edge image, `lengap` - tuple controlling minimum line length and maximum gap between segments
-
-### `pixel_angle_from_home(home_px, target_px)`
-- **Purpose**: Calculates angle from home plate to any pixel coordinates
-- **Parameters**: `home_px` - home plate pixel coordinates, `target_px` - target pixel coordinates
-
-### `shortest_angle_interp(a_from, a_to, t)`
-- **Purpose**: Interpolates between two angles using shortest path around circle
-- **Parameters**: `a_from` - starting angle, `a_to` - ending angle, `t` - interpolation factor (0-1)
-
-### `latlng_to_pixel(lat, lng, center_lat, center_lng, zoom, size)`
-- **Purpose**: Converts geographic coordinates to pixel coordinates in map image
-- **Parameters**: `lat, lng` - target coordinates, `center_lat, center_lng` - map center coordinates, `zoom` - map zoom level, `size` - output image dimensions
-
-### `distance_to_wall(home_px, angle_deg, wall_mask, min_distance_px)`
-- **Purpose**: Raycasts from home plate at specified angle to find wall intersection
-- **Parameters**: `home_px` - home plate position, `angle_deg` - ray angle, `wall_mask` - boundary mask, `min_distance_px` - minimum distance to ignore infield boundaries
-
-### `find_wall_after_offset(home_px, angle_deg, start_point, offset_feet, feet_per_pixel, dirt_edges, max_extra_ft)`
-- **Purpose**: Continues scanning beyond warning track to find actual wall
-- **Parameters**: `home_px` - home plate position, `angle_deg` - ray angle, `start_point` - offset starting position, `offset_feet` - warning track width, `feet_per_pixel` - conversion factor, `dirt_edges` - edge detection output, `max_extra_ft` - maximum search distance beyond offset
-
-### `smooth_distances(distances, max_jump_ft)`
-- **Purpose**: Filters out measurement outliers using neighborhood averaging
-- **Parameters**: `distances` - list of angle-distance tuples, `max_jump_ft` - maximum allowed distance difference between neighbors
-
-## Usage
-
-1. **Configure the script** with your field coordinates and API key
-2. **Run the script**: `python baseball.py`
-3. **Output files**:
-   - `field_visualization.png`: Visual representation with distance lines
-   - `field_distances.csv`: Table of angles and corresponding distances
+### Additional Optional Arguments (Map-Mode Only)
+**--zoom**: Google Maps zoom level (default `19`)
+**--size**: Google Maps image size (default `600`)
 
 ## Output Interpretation
 
-- **CSV Columns**:
+- **Distance CSV File**:
   - `Angle (deg)`: Angle from center field (-45° to +45°)
   - `Distance (ft)`: Distance to outfield wall in feet
-- **Visualization Colors**:
+- **Distance Visualization Rays**:
   - **Green**: Success: wall detection with distance measurement
   - **Yellow**: Warning: field edge detected, but wall not found
   - **Red**: Failure: no boundary detected
 
-
-
-## Customization / Refinement
-
-- Adjust `min_distance_ft` (currently 275) if detecting boundaries for a smaller park such as a college or high school dield
-- Modify color ranges in `grassmask()` and `dirtmask()` for different field conditions
-- Tweak `smooth_distances()` parameters if measurements are too jumpy. Add more to smooth more. 
-- Adjust `feet_per_pixel` calculation if the distance between home and first plate isn't exactly 90 feet. 
-
-## Troubleshooting
-
-If measurements seem inaccurate:
-- Check coordinate accuracy using Google Maps
-- Verify the field is clearly visible in the generated `map.png`
-- Adjust color thresholds in masking functions
-- Modify the `zoom` level for better resolution
+## Refinement / Troubleshooting
+If measurements seem suboptimal:
+- Verify ballpark field clearly visible in image
+- Increase / decrease `--smooth-level` to reweigh data vs smoothness
+- Modify Google Maps `--zoom` and `--size` for better resolution
+- Decrease `--min-distance-feet` for small parks
 
 ## Limitations
 
